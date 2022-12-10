@@ -131,7 +131,12 @@
 <br/>
 <br/>
 
-<a href="https://github.com/Saurav02022/github-readme-activity-graph"><img alt="Saurav02022 Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=Saurav02022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+ <a href="https://github.com/Saurav02022">
+          <img
+            src="https://github-readme-activity-graph.cyclic.app/graph?username=Saurav02022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
+            alt="streak"
+          />
+        </a> 
 
 <br/>
 <br/>
