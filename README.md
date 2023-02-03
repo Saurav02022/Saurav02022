@@ -24,7 +24,7 @@
 
 - 🔭 I’m currently pursuing Full Stack Web Development
 
-- 🌱 I’m currently learning Frontend
+- 🌱 I’m currently in revision RM-B23
 
 - 📄 Check out my [Resume](https://drive.google.com/file/d/1EXTQAFDi1i8VXpzl9tlAEFsJPzo2V23r/view?usp=sharing)
 
