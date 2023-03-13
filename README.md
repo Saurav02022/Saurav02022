@@ -22,9 +22,9 @@
 
 ## 🙋🏻‍♂ About Me 
 
-- 🔭 I’m currently pursuing Full Stack Web Development
+- 🔭recently I completed a Full Stack Web Development full-time Course at Masai school.
 
-- 🌱 I’m currently in revision RM-B23
+- 🌱 I’m currently in placements.
 
 - 📄 Check out my [Resume](https://drive.google.com/file/d/1EXTQAFDi1i8VXpzl9tlAEFsJPzo2V23r/view?usp=sharing)
 
@@ -32,7 +32,7 @@
 
 - 👨🏻‍💻 All of my projects are available at [My Github Repositories](https://github.com/Saurav02022?tab=repositories)
 
-- 💬 Ask me about HTML, CSS, JavaScript, React & DSA
+- 💬 Ask me about  HTML, CSS, JavaScript, React, Redux, TypeScript, Next.js, Node.js, Express.js, MongoDB, GitHub, Bootstrap, Chakra UI, Tailwind CSS, REST API, and DSA.
 
 - 📫 How to reach me sk729584@gmail.com
 
@@ -64,11 +64,11 @@
 <img src ="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" align="center" alt="javascript">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"  align="center" alt="reactjs" />
 <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"  align="center" alt="redux" />
-<img src="https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white"  align="center" alt="material-ui"/>
+<img src="https://img.shields.io/badge/Tailwaind%20CSS-007FFF?style=for-the-badge&logo=Tailwaind&logoColor=white"  align="center" alt="Tailwaind CSS"/>
 <br/>
 <br/>
   <img src = "https://img.shields.io/badge/chakra ui-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white" align="center" alt="chakra-ui"/>
-  <img src="https://img.shields.io/badge/rest api-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white" align="center" alt="restapi"/>
+ 
   
 </div>
  <br/>
@@ -85,6 +85,7 @@
 <img src ="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" align="center" alt="postman">
 <img src = "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" align="center" alt="npm">
    <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white"  align="center" alt="vscode"/>
+   <img src="https://img.shields.io/badge/rest api-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white" align="center" alt="restapi"/>
    <br/>
 <br/>
    <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" align="center" alt="slack"/>
