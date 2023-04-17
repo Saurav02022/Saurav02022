@@ -117,14 +117,14 @@
      <br/>
    <p align="center">
     <a href="https://github.com/Saurav02022/github-readme-streak-stats">
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Saurav02022 streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Saurav02022&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>
+        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="https://github.com/Saurav02022/github-readme-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Saurav02022&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>
     </a>
 </p>                                                                                                                                              
 
   <br/>
   <br/>
      <p align="center">                                                                                                 
-    <a href="https://github.com/Saurav02022/github-readme-stats"><img alt="Saurav02022 Github Stats" src="https://github-readme-stats.vercel.app/api?username=Saurav02022&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" alt="Saurav02022" /></a>
+    <a href="https://github.com/Saurav02022/github-readme-stats"><img alt="Saurav02022 GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Saurav02022&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" alt="Saurav02022" /></a>
     </p>                                                                 
  <h6 align="center"> <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</h6>
 
@@ -135,7 +135,7 @@
  <a href="https://github.com/Saurav02022">
           <img
             src="https://github-readme-activity-graph.cyclic.app/graph?username=Saurav02022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
-            alt="streak"
+            alt="[streak](https://github-readme-activity-graph.cyclic.app/graph?username=Saurav02022&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)"
           />
         </a> 
 
