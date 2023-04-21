@@ -28,7 +28,7 @@
 
 - 📄 Check out my [Resume](https://drive.google.com/file/d/1EXTQAFDi1i8VXpzl9tlAEFsJPzo2V23r/view?usp=sharing)
 
-- 👨🏻‍💻 Know more about me [Portfolio](https://Saurav02022.github.io/)
+- 👨🏻‍💻 Know more about me [Portfolio](https://saurav02022.github.io/)
 
 - 👨🏻‍💻 All of my projects are available at [My Github Repositories](https://github.com/Saurav02022?tab=repositories)
 
@@ -47,7 +47,7 @@
 
 <p align="center">
 <a href="https://www.linkedin.com/in/saurav02022/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt=saurav02022" height="30" width="40" /></a>
-  <a href=["https://saurav02022.github.io/](https://saurav02022.github.io/)" target="blank"><img align="center" src="https://www.portfoliogallerystl.org/images/all-colors/Portfolio-Gallery-circle-Logo-300.png" alt="saurav02022" height="40" width="50" /></a>
+  <a href="https://saurav02022.github.io/" target="blank"><img align="center" src="https://www.portfoliogallerystl.org/images/all-colors/Portfolio-Gallery-circle-Logo-300.png" alt="saurav02022" height="40" width="50" /></a>
 </p>
 <br />
 
