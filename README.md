@@ -112,12 +112,28 @@
 <h2 align="center">📊 My Github Stats</h2>
    <br/>    
   <div align="center">
-  <img alt="Saurav02022 Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurav02022&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />       
-     <br/> 
-        <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="https://github.com/Saurav02022/github-readme-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=Saurav02022&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"/>                                                                                                                                 
-  <br/>                                                                                              
-  <img alt="Saurav02022 GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=Saurav02022&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" alt="Saurav02022" />         
-  </div>                                                 
+        <div>
+          <img
+            id="github-top-langs"
+            alt="Saurav Kumar's Top Languages"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saurav02022&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
+          />
+        </div>
+        <div>
+          <img
+            id="github-streak-stats"
+            alt="Saurav Kumar's Top Languages"
+            src="https://github-readme-streak-stats.herokuapp.com?user=Saurav02022&hide_border=true"
+          />
+        </div>
+        <div>
+          <img
+            id="github-stats-card"
+            alt="Saurav02022 Github Stats"
+            src="https://github-readme-stats.vercel.app/api?username=Saurav02022&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117"
+          />
+        </div>
+      </div>                                               
  <h6 align="center"> <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.</h6>
 <br/>
 <br/>
