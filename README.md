@@ -6,17 +6,17 @@
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35">, I'm Saurav Kumar 👨🏻‍💻 <img src="https://camo.githubusercontent.com/d3359cb00ab0b5ed8f2e1fe3fceb4fbaf3b614340f8c0db99c17b9f50b351770/68747470733a2f2f656d6f6a69732e736c61636b6d6f6a69732e636f6d2f656d6f6a69732f696d616765732f313533313834393433302f343234362f626c6f622d73756e676c61737365732e6769663f31353331383439343330" width="32"/></h1>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=Saurav02022&label=Profile%20views&color=0e75b6&style=flat" alt="Saurav02022" /> </p>
+<div align="center"> <img src="https://komarev.com/ghpvc/?username=Saurav02022&label=Profile%20views&color=0e75b6&style=flat" alt="Saurav02022" /> </div>
 
 
 <h3 align="center">A passionate Full Stack Developer is in making</h3>
 
 <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg">
     <img src="https://readme-typing-svg.demolab.com/?lines=Hi! My Self Saurav Kumar; I am a Full-Stack%20Web%20Developer 👨🏻‍💻; Interested in Travelling 🚆✈;Curious%20to%20learn%20new%20things !&font=Fira%20Code&center=true&width=440&height=45&color=#37bcf7&vCenter=true&size=22&pause=1000"></a>
-</p>
+</div>
 
 
 
@@ -38,17 +38,18 @@
 
 - ⚡ Fun fact World is Ending soon, So better commit your code before you....
 
-
 <hr />
-
-
 <h2 align="center">📱 Connect with me</h2>
 <br />
 
-<p align="center">
-<a href="https://www.linkedin.com/in/saurav02022/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt=saurav02022" height="30" width="40" /></a>
-  <a href="https://saurav02022.github.io/" target="blank"><img align="center" src="https://www.portfoliogallerystl.org/images/all-colors/Portfolio-Gallery-circle-Logo-300.png" alt="saurav02022" height="40" width="50" /></a>
-</p>
+<div align="center">
+<a href="https://www.linkedin.com/in/saurav02022/" target="blank">
+<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt=saurav02022" height="30" width="40" />
+</a>
+ <a href="https://saurav02022.github.io/" target="blank">
+<img align="center" src="https://www.portfoliogallerystl.org/images/all-colors/Portfolio-Gallery-circle-Logo-300.png" alt="saurav02022" height="40" width="50" />
+</a>
+</div>
 <br />
 
 <hr />
@@ -57,7 +58,6 @@
 <h2 align="center">🚀 Languages and Tools:</h2>
 <br/>
 <div align="center">
- 
  <div align="center"><h3 align="center">Frontend</h3>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="html5">
 <img src = "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" align="center" alt="css3">
