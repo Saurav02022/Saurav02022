@@ -22,7 +22,7 @@
 
 ## 🙋🏻‍♂ About Me 
 
-- 🔭 I completed a Full Stack Web Development full-time Course at Masai school.
+- 🔭 I successfully completed a rigorous full-time Full Stack Web Development course at Masai School.
 
 - 🌱 At present, I am employed as a Full Stack Developer at Neweb Labs Private Limited.
 
@@ -32,7 +32,7 @@
 
 - 👨🏻‍💻 All of my projects are available at [My Github Repositories](https://github.com/Saurav02022?tab=repositories)
 
-- 💬 Ask me about  HTML, CSS, JavaScript, React, Redux, TypeScript, Next.js, Node.js, Express.js, MongoDB, GitHub, Bootstrap, Chakra UI, Tailwind CSS, REST API, and DSA.
+- 💬 Ask me about  HTML, CSS, JavaScript, React, Redux, TypeScript, Next.js, Node.js, Express.js, MongoDB, GitHub, Bootstrap, Chakra UI, Tailwind CSS, REST API.
 
 - 📫 How to reach me sk729584@gmail.com
 
