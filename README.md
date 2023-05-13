@@ -24,7 +24,7 @@
 
 - 🔭 I completed a Full Stack Web Development full-time Course at Masai school.
 
-- 🌱 I’m currently in placements.
+- 🌱 I’m currently work in Neweb Labs Private Limited as a Full Stack Developer.
 
 - 📄 Check out my [Resume](https://drive.google.com/file/d/1EXTQAFDi1i8VXpzl9tlAEFsJPzo2V23r/view?usp=sharing)
 
