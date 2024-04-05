@@ -34,12 +34,13 @@
 - **Full Stack Developer**  
   Neweb Labs Pvt Ltd, May 15, 2023 - Present
 
-  Responsibilities:
-  - Collaborate closely with backend developers to ensure seamless integration of frontend and backend functionalities.
-  - Contribute to the development of web applications following the Atomic Design Methodology, prioritizing scalability and maintainability.
-  - Efficiently manage project tasks and workflows using Jira, ensuring project milestones are met and client expectations are exceeded.
-  - Conduct comprehensive testing of web applications to identify and rectify any issues or discrepancies.
-  - Actively participate in resolving issues and bugs, maintaining product quality and reliability.
+Responsibilities:
+
+- Collaborate with backend developers to integrate frontend and backend functionalities effectively, ensuring a cohesive user experience.
+- Follow the Atomic Design Methodology to develop web applications with a focus on scalability and maintainability, contributing to the enhancement of product quality.
+- Efficiently manage project tasks and workflows using Jira, ensuring timely completion of project milestones and delivery of high-quality products.
+- Conduct comprehensive testing of web applications to identify and resolve any anomalies or inconsistencies, ensuring optimal performance and reliability.
+- Proactively engage in troubleshooting and resolution processes to maintain product quality and reliability, contributing to the overall success of the projects.
 
 <!-- Key Strengths Section -->
 ## 💡 Key Strengths
