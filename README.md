@@ -19,19 +19,20 @@ Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about cra
 ### Full Stack Developer, Neweb Labs Pvt Ltd
 **May 2023 – Present**
 
-- Collaborate with backend developers to seamlessly integrate frontend and backend functionalities.
-- Apply the Atomic Design Methodology to create scalable and maintainable web applications.
-- Manage project tasks and workflows using Jira for efficient project tracking.
-- Conduct comprehensive testing and troubleshooting to ensure optimal performance and product quality.
-- Review, merge, and deploy code in testing environments, ensuring robust testing before production release.
-- Resolve issues and maintain product quality for successful project delivery.
+- Worked closely with backend developers to combine frontend and backend features, ensuring a smooth user experience across web applications.
+- Used the Atomic Design Methodology to develop scalable and easily maintainable web solutions, improving the overall quality of our products.
+- Managed tasks and project workflows efficiently using Jira, consistently meeting deadlines and delivering high-quality outcomes.
+- Conducted thorough testing of web applications to identify and resolve issues, ensuring optimal performance and reliability for users.
+- Collaborated with team members to review, merge, and deploy code in a controlled testing environment before final release, ensuring a seamless production process.
+- Proactively addressed issues to maintain product quality and support project success, showing dedication to excellence and continuous improvement.
 
 ### Student Trainee, Masai School
 **May 2022 – May 2023**
 
-- Developed hands-on experience in front-end and back-end development using technologies such as HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB.
-- Collaborated with peers and instructors on real-world projects, building teamwork and project management skills.
-- Practiced coding best practices and received valuable feedback from mentors.
+- Obtained practical experience in full-stack development using MERN stack technologies (MongoDB, Express.js, React, and Node.js), gaining proficiency in the complete development process.
+- Worked closely with peers and instructors on diverse projects, fostering teamwork, clear communication, and efficient project management.
+- Created and enhanced web applications by integrating frontend and backend technologies seamlessly.
+- Received valuable mentorship and feedback, accelerating learning and adopting coding best practices to enhance skills and performance continually.
 
 ## 💡 Key Strengths
 
