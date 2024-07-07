@@ -19,12 +19,17 @@ Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about cra
 ### Full Stack Developer, Neweb Labs Pvt Ltd
 **May 2023 – Present**
 
-- Worked closely with backend developers to combine frontend and backend features, ensuring a smooth user experience across web applications.
-- Used the Atomic Design Methodology to develop scalable and easily maintainable web solutions, improving the overall quality of our products.
-- Managed tasks and project workflows efficiently using Jira, consistently meeting deadlines and delivering high-quality outcomes.
-- Conducted thorough testing of web applications to identify and resolve issues, ensuring optimal performance and reliability for users.
-- Collaborated with team members to review, merge, and deploy code in a controlled testing environment before final release, ensuring a seamless production process.
-- Proactively addressed issues to maintain product quality and support project success, showing dedication to excellence and continuous improvement.
+- Led 3 projects (Nuveb Event, Nuveb Creator Studio, Nuveb Altex) from inception to production, ensuring timely delivery
+and high-quality outcomes.
+- Improved OTT Screen product rendering times by 70% using Next.js’s CSR and SSR techniques.
+- Implemented SEO best practices with Next.js SEO, resulting in a 40% increase in organic traffic for key projects.
+- Developed scalable components using Atomic Design Methodology, reducing development time by 30%.
+- Contributed significantly to 7 web application projects, optimizing functionality and user experience.
+- Played a key role in developing a mobile application using React Native with Expo, focusing on reusable components.
+- Utilized Next.js Image for automatic image optimization, reducing loading times by 40%.
+- Conducted thorough testing, code reviews, and collaborated on deployments for optimal performance.
+- Collaborated with backend developers, UI/UX designers, product managers, and founders for seamless integration.
+- Managed tasks and workflows efficiently using Jira, consistently meeting deadlines with high-quality results.
 
 ### Student Trainee, Masai School
 **May 2022 – May 2023**
