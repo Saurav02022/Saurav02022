@@ -19,13 +19,14 @@ Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about cra
 ### Full Stack Developer, Neweb Labs Pvt Ltd
 **May 2023 – Present**
 
-- Led 3 projects (Nuveb Event, Nuveb Creator Studio, Nuveb Altex) from inception to production, ensuring timely delivery
-and high-quality outcomes.
-- Improved OTT Screen product rendering times by 70% using Next.js’s CSR and SSR techniques.
-- Implemented SEO best practices with Next.js SEO, resulting in a 40% increase in organic traffic for key projects.
+- Led 3 projects (Nuveb Event, Creator Studio, Altex) from inception to production, ensuring timely delivery and high-
+quality outcomes.
+
+- Improved Nuveb OTT Screen rendering times by 70% using Next.js’s CSR and SSR techniques.
+- Implemented SEO best practices with Next.js SEO, increasing organic traffic by 40%.
 - Developed scalable components using Atomic Design Methodology, reducing development time by 30%.
-- Contributed significantly to 7 web application projects, optimizing functionality and user experience.
-- Played a key role in developing a mobile application using React Native with Expo, focusing on reusable components.
+- Contributed to 7 web application projects, optimizing functionality and user experience.
+- Developed a mobile application using React Native with Expo, focusing on reusable components.
 - Utilized Next.js Image for automatic image optimization, reducing loading times by 40%.
 - Conducted thorough testing, code reviews, and collaborated on deployments for optimal performance.
 - Collaborated with backend developers, UI/UX designers, product managers, and founders for seamless integration.
@@ -35,6 +36,7 @@ and high-quality outcomes.
 **May 2022 – May 2023**
 
 - Obtained practical experience in full-stack development using MERN stack technologies (MongoDB, Express.js, React, and Node.js), gaining proficiency in the complete development process.
+- Built over 7 projects, led 3 team projects, and completed 4 individual projects.
 - Worked closely with peers and instructors on diverse projects, fostering teamwork, clear communication, and efficient project management.
 - Created and enhanced web applications by integrating frontend and backend technologies seamlessly.
 - Received valuable mentorship and feedback, accelerating learning and adopting coding best practices to enhance skills and performance continually.
