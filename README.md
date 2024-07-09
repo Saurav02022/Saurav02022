@@ -21,7 +21,6 @@ Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about cra
 
 - Led 3 projects (Nuveb Event, Creator Studio, Altex) from inception to production, ensuring timely delivery and high-
 quality outcomes.
-
 - Improved Nuveb OTT Screen rendering times by 70% using Next.js’s CSR and SSR techniques.
 - Implemented SEO best practices with Next.js SEO, increasing organic traffic by 40%.
 - Developed scalable components using Atomic Design Methodology, reducing development time by 30%.
