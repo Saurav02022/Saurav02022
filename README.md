@@ -19,17 +19,18 @@ Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about cra
 ### Full Stack Developer, Neweb Labs Pvt Ltd
 **May 2023 – Present**
 
-- Led 3 projects (Nuveb Event, Creator Studio, Altex) from inception to production, ensuring timely delivery and high-
-quality outcomes.
-- Improved Nuveb OTT Screen rendering times by 70% using Next.js’s CSR and SSR techniques.
-- Implemented SEO best practices with Next.js SEO, increasing organic traffic by 40%.
+- Led 3 projects from inception to production, achieving a 70% improvement in Nuveb OTT screen rendering times using
+Next.js CSR and SSR techniques.
+- Implemented SEO best practices with Next.js SEO, resulting in a 30% increase in organic traffic.
 - Developed scalable components using Atomic Design Methodology, reducing development time by 30%.
-- Contributed to 7 web application projects, optimizing functionality and user experience.
-- Developed a mobile application using React Native with Expo, focusing on reusable components.
-- Utilized Next.js Image for automatic image optimization, reducing loading times by 40%.
-- Conducted thorough testing, code reviews, and collaborated on deployments for optimal performance.
-- Collaborated with backend developers, UI/UX designers, product managers, and founders for seamless integration.
-- Managed tasks and workflows efficiently using Jira, consistently meeting deadlines with high-quality results.
+- Enhanced functionality and performance of 7 web applications, significantly improving user experience metrics.
+- Built a mobile application with React Native and Expo, emphasizing reusable components and streamlined user experience.
+- Optimized image loading times by 40% using Next.js Image for automatic optimization.
+- Conducted rigorous testing and code reviews, ensuring high code quality and seamless deployments.
+- Collaborated cross-functionally with backend developers, UI/UX designers, product managers, and founders to integrate
+features seamlessly, resulting in streamlined workflows and enhanced product delivery.
+- Managed project workflows efficiently using Jira, ensuring on-time delivery of high-quality solutions and alignment with
+business goals.
 
 ### Student Trainee, Masai School
 **May 2022 – May 2023**
