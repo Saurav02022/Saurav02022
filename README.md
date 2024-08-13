@@ -4,7 +4,9 @@
 <!-- About Me Section -->
 ## 🙋🏻‍♂️ About Me 
 
-Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about crafting seamless web experiences. I specialize in building intuitive user interfaces and robust backend solutions. My skill set includes:
+👋 Hi there! I’m a Full Stack Developer with over a year of experience at Nuveb. I excel in coding, problem-solving, and teamwork, and I’m passionate about continuous learning and growth in the field.
+
+## 🥇 Skills 
 
 - **Frontend:** Proficient in HTML, CSS, JavaScript, React.js, Next.js, and TypeScript for creating dynamic web applications. Experienced in UI libraries like Tailwind CSS, Chakra UI, and Bootstrap for enhancing design aesthetics and user experience.
 - **Backend:** Skilled in server-side development using Node.js and Express.js, with experience in building scalable and efficient APIs. Proficient in MongoDB for reliable data storage and retrieval.
@@ -19,27 +21,23 @@ Welcome! I'm Saurav Kumar, a dedicated Full Stack Developer passionate about cra
 ### Full Stack Developer, Neweb Labs Pvt Ltd
 **May 2023 – Present**
 
-- Led 3 projects from inception to production, achieving a 70% improvement in Nuveb OTT screen rendering times using
-Next.js CSR and SSR techniques.
-- Implemented SEO best practices with Next.js SEO, resulting in a 30% increase in organic traffic.
-- Developed scalable components using Atomic Design Methodology, reducing development time by 30%.
-- Enhanced functionality and performance of 7 web applications, significantly improving user experience metrics.
-- Built a mobile application with React Native and Expo, emphasizing reusable components and streamlined user experience.
-- Optimized image loading times by 40% using Next.js Image for automatic optimization.
-- Conducted rigorous testing and code reviews, ensuring high code quality and seamless deployments.
-- Collaborated cross-functionally with backend developers, UI/UX designers, product managers, and founders to integrate
-features seamlessly, resulting in streamlined workflows and enhanced product delivery.
-- Managed project workflows efficiently using Jira, ensuring on-time delivery of high-quality solutions and alignment with
-business goals.
+- Led 3 projects from inception to deployment, enhancing Nuveb OTT screen rendering time by 70% through Next.js
+Client-side Rendering (CSR), Server-side Rendering (SSR) and Static Site Generation (SSG).
+- Increased organic traffic by 30% through the implementation of SEO best practices with Next.js SEO.
+- Reduced development time by 30% by creating reusable components using Atomic Design Methodology.
+- Optimized performance across 7 web applications, leading to significant improvements in user experience.
+- Cut image loading times by 40% using the Next.js Image component for automatic image optimization.
+- Developed a React Native mobile app with Expo, focusing on modular, reusable components.
+- Ensured code quality and efficient integration through rigorous testing, code reviews, and cross-functional collaboration.
+- Managed project workflows using Jira, ensuring on-time delivery of high-quality solutions.
 
-### Student Trainee, Masai School
+### Full Stack Web Developer Trainee, Masai School
 **May 2022 – May 2023**
 
-- Obtained practical experience in full-stack development using MERN stack technologies (MongoDB, Express.js, React, and Node.js), gaining proficiency in the complete development process.
-- Built over 7 projects, led 3 team projects, and completed 4 individual projects.
-- Worked closely with peers and instructors on diverse projects, fostering teamwork, clear communication, and efficient project management.
-- Created and enhanced web applications by integrating frontend and backend technologies seamlessly.
-- Received valuable mentorship and feedback, accelerating learning and adopting coding best practices to enhance skills and performance continually.
+- Led 3 team projects and developed 4 individual projects with the MERN stack, demonstrating leadership and technical
+proficiency.
+- Applied industry best practices in frontend and backend development, optimizing code efficiency.
+- Continuously improved coding skills and adopted emerging technologies through mentorship and feedback.
 
 ## 💡 Key Strengths
 
