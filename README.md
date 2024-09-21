@@ -4,12 +4,12 @@
 <!-- About Me Section -->
 ## 🙋🏻‍♂️ About Me 
 
-👋 Hi there! I’m a Full Stack Developer with over a year of experience at Nuveb. I excel in coding, problem-solving, and teamwork, and I’m passionate about continuous learning and growth in the field.
+👋 Hi there! I’m a Full Stack Developer with a strong focus on Frontend Development, offering over 2 years of hands-on experience. I thrive in coding, problem-solving, and collaboration, and I'm committed to continuous learning and growth in the tech industry.
 
 ## 🥇 Skills 
 
-- **Frontend:** Proficient in HTML, CSS, JavaScript, React.js, Next.js, and TypeScript for creating dynamic web applications. Experienced in UI libraries like Tailwind CSS, Chakra UI, and Bootstrap for enhancing design aesthetics and user experience.
-- **Backend:** Skilled in server-side development using Node.js and Express.js, with experience in building scalable and efficient APIs. Proficient in MongoDB for reliable data storage and retrieval.
+- **Frontend Development:** Proficient in HTML, CSS, JavaScript, React.js, Next.js, and TypeScript for creating dynamic and engaging web applications. Experienced in UI libraries like Tailwind CSS, Chakra UI, and Bootstrap to enhance design and user experience.
+- **Backend Development:** Skilled in server-side development using Node.js and Express.js, with experience in building scalable and efficient APIs. Proficient in MongoDB for reliable data storage and retrieval.
 
 ## 🎓 Education 
 
@@ -19,32 +19,30 @@
 ## 🚀 Professional Experience
 
 ### Full Stack Developer, Neweb Labs Pvt Ltd
-**May 2023 – Present**
+**May 2023 – September 2024**
 
-- Led 3 projects from inception to deployment, enhancing Nuveb OTT screen rendering time by 70% through Next.js
-Client-side Rendering (CSR), Server-side Rendering (SSR) and Static Site Generation (SSG).
-- Increased organic traffic by 30% through the implementation of SEO best practices with Next.js SEO.
-- Reduced development time by 30% by creating reusable components using Atomic Design Methodology.
-- Optimized performance across 7 web applications, leading to significant improvements in user experience.
-- Cut image loading times by 40% using the Next.js Image component for automatic image optimization.
-- Developed a React Native mobile app with Expo, focusing on modular, reusable components.
-- Ensured code quality and efficient integration through rigorous testing, code reviews, and cross-functional collaboration.
-- Managed project workflows using Jira, ensuring on-time delivery of high-quality solutions.
+- Spearheaded 3 projects from concept to deployment, improving Nuveb OTT screen rendering time by 70% through Next.js Client-side Rendering (CSR), Server-side Rendering (SSR), and Static Site Generation (SSG).
+- Boosted organic traffic by 30% through the implementation of SEO best practices using Next.js.
+- Reduced development time by 30% by creating reusable components based on Atomic Design Methodology.
+- Optimized performance across 7 web applications, significantly enhancing user experience.
+- Reduced image loading times by 40% through the Next.js Image component for automatic optimization.
+- Developed a React Native mobile app with Expo, focusing on modular and reusable components.
+- Ensured high code quality and integration through rigorous testing, code reviews, and cross-functional collaboration.
+- Managed project workflows with Jira, delivering high-quality solutions on time.
 
 ### Full Stack Web Developer Trainee, Masai School
 **May 2022 – May 2023**
 
-- Led 3 team projects and developed 4 individual projects with the MERN stack, demonstrating leadership and technical
-proficiency.
-- Applied industry best practices in frontend and backend development, optimizing code efficiency.
-- Continuously improved coding skills and adopted emerging technologies through mentorship and feedback.
+- Led 3 team projects and developed 4 individual projects using the MERN stack, showcasing leadership and technical skills.
+- Applied industry best practices in both frontend and backend development to optimize code efficiency.
+- Continuously improved coding skills and adopted new technologies through mentorship and feedback.
 
 ## 💡 Key Strengths
 
-- **Frontend Development Expertise:** Create engaging user interfaces and intuitive experiences using Next.js, TypeScript, and Tailwind CSS.
-- **Full Stack Versatility:** Strong foundation in both frontend and backend development using technologies like React, Node.js, Express, and MongoDB.
-- **Problem-solving Skills:** Dissect complex issues and devise effective solutions quickly. Mitigate risks to ensure project success.
-- **Continuous Learning:** Stay updated with the latest trends and technologies in web development.
+- **Frontend Expertise:** Creating intuitive user interfaces and seamless experiences using Next.js, TypeScript, and Tailwind CSS.
+- **Full Stack Proficiency:** Strong foundation in both frontend and backend development, leveraging technologies like React, Node.js, Express, and MongoDB.
+- **Problem-Solving Abilities:** Capable of analyzing complex issues and devising effective solutions swiftly.
+- **Commitment to Learning:** Stay abreast of the latest trends and technologies in web development.
 
 ## 🛠️ Languages and Tools
 
