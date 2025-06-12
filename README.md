@@ -1,9 +1,9 @@
 <!-- Header -->
 <h1 align="center">Hi, I'm Saurav Kumar 👋</h1>
-<h3 align="center">Frontend Engineer — React.js • Next.js • TypeScript • UI Performance • AI-Enhanced Dev</h3>
+<h3 align="center">Frontend Engineer — React.js • Next.js • TypeScript • UI Performance • AI-Augmented Dev</h3>
 
 <p align="center">
-  <em>Turning complex ideas into fast, accessible, and scalable frontend experiences.</em>
+  <em>Crafting fast, accessible, and scalable frontend solutions with modern web technologies.</em>
 </p>
 
 <p align="center">
@@ -21,43 +21,41 @@
   </a>
 </p>
 
-
 ---
 
 ## 🙋‍♂️ About Me
 
-Frontend Engineer with 3 years of experience crafting fast, accessible, and responsive web apps using modern tools like React, Next.js, and TypeScript. I specialize in UI systems, rendering optimization (SSR, SSG, ISR, PPR), and AI-accelerated workflows.
+Frontend Engineer with 3 years of experience delivering performant, responsive, and scalable web applications using modern frameworks such as React.js, Next.js, and TypeScript. Skilled in UI systems, design architecture, rendering optimization (SSR, ISR, SSG, PPR), and leveraging AI tools for accelerated development.
 
-I believe in writing clean, scalable code, collaborating across disciplines, and shipping impactful features — fast.
+I believe in writing maintainable code, driving collaborative development, and shipping impactful user experiences.
 
 ---
 
 ## 🛠️ Tech Toolbox
 
 ### 👨‍💻 Languages & Frameworks  
-**JavaScript** • **TypeScript** • **React** • **Next.js** • **React Native** • **Vite**
+**JavaScript** • **TypeScript** • **React.js** • **Next.js** • **React Native** • **Node.js** • **Express.js** • **Vite**
 
 ### 🎨 UI & UX  
-**Tailwind CSS** • **Shadcn UI** • **Material UI** • **Chakra UI**  
-**Atomic Design** • **Responsive Design** • **Accessibility (a11y)** • **i18n**
+**Tailwind CSS** • **Shadcn UI** • **Material UI** • **Chakra UI** • **Atomic Design** • **Responsive Design** • **Accessibility (a11y)** • **Internationalization (i18n)**
 
-### 🧰 State & Architecture  
+### 🧰 Architecture & State  
 **Redux** • **Context API** • **TanStack Query** • **Component Reusability**
 
 ### 🔗 Backend & APIs  
-**Supabase** • **Firebase** • **RESTful APIs** • **OAuth 2.0**
+**Supabase** • **Firebase** • **MongoDB** • **REST APIs** • **OAuth 2.0**
 
-### ✅ Testing & Quality  
-**Jest** • **Cypress** • **React Testing Library**
+### ✅ Testing & Code Quality  
+**Jest** • **Cypress** • **React Testing Library** • **ESLint** • **Prettier**
 
 ### ⚙️ DevOps & Deployment  
 **Docker** • **Vercel** • **Netlify** • **Heroku** • **GitHub Actions (CI/CD)**
 
-### 🤖 AI Tools  
-**Cursor** • **ChatGPT** • **Claude** (for debugging, prototyping & reviews)
+### 🤖 AI Productivity Tools  
+**Cursor AI** • **ChatGPT** • **Claude AI**
 
 ### 🧠 Soft Skills  
-Ownership • Collaboration • Communication • Time Management • Agile Mindset
+Ownership • Collaboration • Communication • Problem Solving • Agile Methodology
 
 ---
 
@@ -65,45 +63,40 @@ Ownership • Collaboration • Communication • Time Management • Agile Mind
 
 ### 🔹 Next.js Developer — *Shikha Learning Labs Pvt. Ltd.*  
 📍 Mumbai, India | 🗓 Nov 2024 – Present  
-**Stack:** Next.js, TypeScript, Tailwind CSS, Shadcn UI, Supabase, Docker, Vercel
+**Stack:** Next.js, TypeScript, Tailwind CSS, Shadcn UI, Vite, Supabase, Docker, Vercel, GitHub, Cursor AI, ChatGPT
 
-- Delivered 2 internal tools from scratch — improved release time by 30%.  
-- Redesigned product UIs, increasing engagement by 20% through modern UX.  
-- Built a PWA for [Central School Foundation](https://www.centralsquarefoundation.org/) — tested by 50+ educators.  
-- Optimized rendering using TanStack Query, reducing redundant calls by 30%.  
-- Refactored legacy components for better performance and maintainability.  
-- Integrated AI tools (Cursor, ChatGPT) to boost prototyping and dev velocity by 50%.
-
----
+- Led end-to-end development of 2 internal products, accelerating feature releases and improving project execution.
+- Redesigned UI/UX across multiple products, boosting user engagement by 20%.
+- Delivered PWA for [Central School Foundation](https://www.centralsquarefoundation.org/), tested by 50+ educators with 80% positive feedback.
+- Reduced redundant API calls by 30% via TanStack Query optimizations.
+- Refactored legacy codebases, lowering technical debt and improving maintainability.
+- Leveraged AI tools to streamline debugging, prototyping, and code reviews — reducing dev cycles by 50%.
 
 ### 🔹 Full Stack Developer — *Neweb Labs Pvt. Ltd. (Nuveb)*  
 📍 Bengaluru, India | 🗓 May 2023 – Sep 2024  
-**Stack:** Next.js, TypeScript, Tailwind CSS, React Native, Docker, JIRA, Agile
+**Stack:** Next.js, TypeScript, Tailwind CSS, Shadcn UI, React Native, Docker, Jest, Cypress, GitHub, Agile
 
-- Boosted Nuveb OTT render speed by 70% using advanced SSR/ISR/PPR.  
-- Increased SEO traffic by 30% through optimized metadata and structured markup.  
-- Built and maintained a scalable UI library — reduced dev time by 25%.  
-- Reduced page load by 40% via image optimization and lazy loading.  
-- Co-developed a React Native mobile app — onboarded 1,000+ users.
+- Enhanced Nuveb OTT platform render speed by 70% using SSR, SSG, ISR & PPR.
+- Increased organic traffic by 30% through SEO and content structure optimizations.
+- Developed reusable UI components following Atomic Design, improving delivery by 25%.
+- Achieved 40% load time reduction via advanced image optimization and lazy loading.
+- Contributed to React Native mobile app development, onboarding 1,000+ users and improving retention by 15%.
 
----
-
-### 🔹 Web Development Apprentice — *Masai School*  
+### 🔹 Full Stack Web Developer Trainee — *Masai School*  
 📍 Bengaluru, India | 🗓 May 2022 – May 2023  
-**Stack:** React, Node.js, Express, MongoDB, Material UI, Chakra UI, Netlify
+**Stack:** React, Node.js, Express.js, MongoDB, Chakra UI, Material UI, Netlify
 
-- Built 4 solo full-stack projects and led 3 collaborative ones.  
-- Mentored 20+ peers on debugging, performance tuning, and code clarity.  
-- Ranked in top 10% of cohort for consistent delivery and collaboration.  
-- Participated in Agile sprints, standups, and peer reviews.
+- Delivered 4 solo full-stack projects and led 3 collaborative team projects.
+- Mentored 20+ peers on debugging, performance optimization, and clean coding practices.
+- Ranked among top performers across 100+ peers for leadership and problem-solving skills.
+- Practiced Agile workflows with peer reviews and sprint-based execution.
 
----
 
-## 🏅 Certifications
+## 📄 Certifications
 
-- [React Front-end Developer – HackerRank](https://www.hackerrank.com/certificates/7b1b3fe04762) (2024)  
-- [JavaScript (Intermediate) – HackerRank](https://www.hackerrank.com/certificates/2f1d11a75816) (2024)  
-- [Full Stack Web Development – Masai School](https://drive.google.com/file/d/1hfzEOXG47fB25Q9hs5l4I4ZXwPHkreTG/view) (2024)
+- [React Front-end Developer – HackerRank (2024)](https://www.hackerrank.com/certificates/7b1b3fe04762)
+- [JavaScript (Intermediate) – HackerRank (2024)](https://www.hackerrank.com/certificates/2f1d11a75816)
+- [Full Stack Web Development – Masai School (2024)](https://drive.google.com/file/d/1hfzEOXG47fB25Q9hs5l4I4ZXwPHkreTG/view)
 
 ---
 
