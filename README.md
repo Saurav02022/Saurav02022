@@ -1,6 +1,6 @@
 <!-- Header -->
 <h1 align="center">Hi, I'm Saurav Kumar 👋</h1>
-<h3 align="center">Frontend Engineer — React.js • Next.js • TypeScript • UI Performance • AI-Augmented Dev</h3>
+<h3 align="center">Frontend Engineer — React.js • Next.js • TypeScript • UI Performance • AI-Augmented Development</h3>
 
 <p align="center">
   <em>Crafting fast, accessible, and scalable frontend solutions with modern web technologies.</em>
@@ -25,9 +25,11 @@
 
 ## 🙋‍♂️ About Me
 
-Frontend Engineer with 3 years of experience delivering performant, responsive, and scalable web applications using modern frameworks such as React.js, Next.js, and TypeScript. Skilled in UI systems, design architecture, rendering optimization (SSR, ISR, SSG, PPR), and leveraging AI tools for accelerated development.
+Frontend Engineer with 3+ years of experience building scalable, high-performance web and mobile applications using React.js, Next.js, React Native, and TypeScript.
 
-I believe in writing maintainable code, driving collaborative development, and shipping impactful user experiences.
+I specialize in developing modular UI systems using Tailwind CSS, Shadcn UI, and Atomic Design. My expertise includes rendering optimization strategies (SSR, ISR, SSG, PPR), progressive web apps (PWA), and internationalization (i18n).
+
+I am passionate about streamlining development workflows using AI tools like Cursor, ChatGPT, and Claude — achieving up to **50% reduction in development time**.
 
 ---
 
@@ -65,32 +67,34 @@ Ownership • Collaboration • Communication • Problem Solving • Agile Meth
 📍 Mumbai, India | 🗓 Nov 2024 – Present  
 **Stack:** Next.js, TypeScript, Tailwind CSS, Shadcn UI, Vite, Supabase, Docker, Vercel, GitHub, Cursor AI, ChatGPT
 
-- Led end-to-end development of 2 internal products, accelerating feature releases and improving project execution.
-- Redesigned UI/UX across multiple products, boosting user engagement by 20%.
-- Delivered PWA for [Central School Foundation](https://www.centralsquarefoundation.org/), tested by 50+ educators with 80% positive feedback.
-- Reduced redundant API calls by 30% via TanStack Query optimizations.
-- Refactored legacy codebases, lowering technical debt and improving maintainability.
-- Leveraged AI tools to streamline debugging, prototyping, and code reviews — reducing dev cycles by 50%.
+- Led the development lifecycle for 3 internal products, accelerating feature releases and improving project efficiency.
+- Redesigned and modernized 3 internal projects with improved UI/UX, boosting user engagement by 20%.
+- Delivered a Progressive Web App for Central School Foundation, tested by 100+ educators with 80% positive feedback.
+- Reduced redundant API calls by 30% via TanStack Query and code-splitting optimizations.
+- Refactored legacy codebases, reducing technical debt and improving maintainability.
+- Integrated AI tools like Cursor and ChatGPT to streamline prototyping, debugging, and code reviews — reducing development time by 50%.
 
 ### 🔹 Full Stack Developer — *Neweb Labs Pvt. Ltd. (Nuveb)*  
 📍 Bengaluru, India | 🗓 May 2023 – Sep 2024  
 **Stack:** Next.js, TypeScript, Tailwind CSS, Shadcn UI, React Native, Docker, Jest, Cypress, GitHub, Agile
 
-- Enhanced Nuveb OTT platform render speed by 70% using SSR, SSG, ISR & PPR.
-- Increased organic traffic by 30% through SEO and content structure optimizations.
-- Developed reusable UI components following Atomic Design, improving delivery by 25%.
-- Achieved 40% load time reduction via advanced image optimization and lazy loading.
-- Contributed to React Native mobile app development, onboarding 1,000+ users and improving retention by 15%.
+- Improved Nuveb OTT platform render speed by 70% using advanced Next.js SSR, SSG, ISR, and PPR strategies.
+- Increased organic traffic by 30% via SEO optimization and structured metadata.
+- Developed reusable UI components using Atomic Design, accelerating development velocity by 25%.
+- Reduced load times by 40% via advanced image optimization and smart asset handling.
+- Co-developed a React Native app that onboarded over 1,000 users and improved retention by 15%.
+- Collaborated in Agile sprints using GitHub and JIRA to ensure timely, high-quality releases.
 
 ### 🔹 Full Stack Web Developer Trainee — *Masai School*  
 📍 Bengaluru, India | 🗓 May 2022 – May 2023  
 **Stack:** React, Node.js, Express.js, MongoDB, Chakra UI, Material UI, Netlify
 
-- Delivered 4 solo full-stack projects and led 3 collaborative team projects.
-- Mentored 20+ peers on debugging, performance optimization, and clean coding practices.
-- Ranked among top performers across 100+ peers for leadership and problem-solving skills.
+- Delivered 4 solo full-stack projects and led 3 collaborative team projects simulating real-world environments.
+- Mentored 20+ peers on debugging, system design, and clean coding practices.
+- Ranked among the top performers out of 100+ peers for leadership, execution, and problem-solving.
 - Practiced Agile workflows with peer reviews and sprint-based execution.
 
+---
 
 ## 📄 Certifications
 
