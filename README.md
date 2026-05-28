@@ -1,123 +1,105 @@
-# Saurav Kumar
+# Hi, I'm Saurav Kumar 👋
 
-Frontend / Full-Stack Engineer focused on building **scalable, performance-driven web applications** with strong UX and clear business impact.
+## Software Engineer II | Full-Stack / Frontend Engineer
 
-I primarily work with **React, Next.js, and TypeScript**, and I’ve shipped products across **web, PWA, and mobile** in both solo-owner and collaborative environments.
+I build production web applications, AI-assisted product workflows, and reliable frontend-backend systems using React, Next.js, TypeScript, FastAPI, PostgreSQL, and Redis.
+
+My strongest work is in end-to-end product engineering: shipping user-facing apps, improving performance, building async AI workflows, and making systems reliable in real usage conditions. I also use AI coding tools like Claude, Cursor, and Codex to speed up development, debugging, refactoring, and code review without treating them as a replacement for engineering judgment.
 
 ---
 
-## About
+## What I Work On
 
-I have **3+ years of experience** building and maintaining production applications, with a strong emphasis on:
+* Full-stack web applications with React, Next.js, TypeScript, FastAPI, and PostgreSQL
+* AI-assisted product workflows using OpenAI API, Gemini API, fixed-schema responses, and async processing
+* AI-assisted engineering workflows using Claude, Cursor, and Codex for development, debugging, refactoring, and review
+* Offline-first systems for low-network environments
+* Async backend processing with queues, workers, idempotent jobs, and webhooks
+* Frontend performance, SSR/SSG tradeoffs, and production reliability
 
-- frontend performance optimization (SSR, ISR, caching, code splitting)
-- offline-first architectures for low-connectivity environments
-- scalable component systems and design consistency
-- internationalization (i18n) and accessibility
-- pragmatic use of AI tools to improve developer efficiency
+---
 
-I value clarity, maintainability, and measurable outcomes over unnecessary complexity.
+## Professional Work
+
+### Shikha Learning Labs
+
+**Role:** Software Engineer
+**Focus:** EdTech products, AI workflows, offline-first systems, and production applications
+
+* Owned 4 production apps end-to-end as a founding engineer across products used in 117 schools.
+* Built async AI evaluation workflows with Redis queues, FastAPI workers, and Google Gemini.
+* Helped reduce teacher evaluation time from 40 minutes to 5 minutes.
+* Designed idempotent AI job handling to safely process 5,000+ student submissions.
+* Built offline-first flows using IndexedDB queues and batched sync for low-network schools.
+
+**Note:** Professional project source code is private.
+
+### Nuveb
+
+**Role:** Full Stack Developer
+**Focus:** Creator platform, video content workflows, frontend performance, and API integrations
+
+* Built platform modules for video management, publishing schedules, and payments.
+* Improved page load performance by moving static catalog pages from over-fetched SSR to SSG.
+* Reduced image API response time by profiling resizing bottlenecks and improving processing strategy.
+
+**Note:** Professional project source code is private.
+
+---
+
+## Selected Public Projects
+
+### Intervue — Mock Interview Marketplace
+
+**What it is:** A mock interview marketplace where interviewees book 1:1 video sessions and receive AI-generated structured feedback after recorded calls.
+**My role:** Built the full-stack product architecture and implementation.
+**Tech used:** Next.js, React, TypeScript, FastAPI, Python, Supabase PostgreSQL, Clerk, Stream Video, Google Gemini, Docker, GitHub Actions, GCP Cloud Run
+**Why it matters:** Shows full-stack system design, role-based auth, transactional booking logic, video workflows, async webhooks, AI feedback generation, and CI/CD deployment.
+**Link:** https://github.com/saurav02022/ai-interview
+
+### Resume Builder
+
+**What it is:** A resume tailoring platform where users upload a resume, add a target job description, review AI-assisted changes, and export LaTeX/PDF output.
+**My role:** Built the end-to-end product across frontend, backend, AI workflow, testing, and deployment.
+**Tech used:** Next.js, React, TypeScript, FastAPI, Google Gemini, Playwright, GitHub Actions, Vercel, GCP Cloud Run
+**Why it matters:** Shows product thinking, document parsing, schema-driven AI output, multi-step UX, E2E testing, and deployment automation.
+**Link:** https://github.com/saurav02022/resume-builder
+
+### RTO Shield — Voice AI Ops Console
+
+**What it is:** A voice-AI-assisted operations dashboard for verifying high-risk COD orders before dispatch using automated outbound calls.
+**My role:** Designed and built the full-stack workflow, backend integration, webhook handling, and deployment setup.
+**Tech used:** Next.js, TypeScript, FastAPI, Bolna, Firestore, Docker, GitHub Actions, GCP Cloud Run
+**Why it matters:** Shows practical full-stack engineering around real operational workflows, third-party voice AI integration, webhook idempotency, polling fallback, and cloud deployment.
+**Link:** https://github.com/saurav02022/bolna-assignment-web-app
+
+---
+
+## Tech Stack
+
+**Frontend:** React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, shadcn/ui
+**Backend:** FastAPI, Node.js, REST APIs, PostgreSQL, Redis
+**AI / LLM Integrations:** OpenAI API, Google Gemini API, DeepSeek API
+**AI Development Workflow:** Claude, Cursor, Codex
+**Cloud & DevOps:** GCP, Docker, GitHub Actions, Vercel
+**Testing & Monitoring:** Playwright, Cypress, Sentry, PostHog
+**Tools:** Git, JIRA
 
 ---
 
 ## Current Focus
 
-- Building AI-assisted education products at **Shikha Learning Labs**
-- Designing offline-first PWAs used in real-world classroom environments
-- Improving frontend performance and reliability at scale
-- Writing about frontend engineering and real product lessons
+* Building reliable full-stack products for real users
+* Improving frontend performance and production stability
+* Designing AI workflows that are predictable, testable, and safe to retry
+* Using AI coding tools to move faster while keeping code quality, architecture, and ownership clear
+* Strengthening system design, backend reliability, and product engineering depth
 
 ---
 
-## Core Technologies
+## Connect
 
-### Frontend
-- React, Next.js, React Native
-- TypeScript, JavaScript (ES6+)
-- Tailwind CSS, shadcn/ui
-
-### Backend & Data
-- Node.js, Express
-- PostgreSQL (Supabase), MongoDB, Firebase
-- REST APIs, OAuth
-
-### Quality & Delivery
-- Jest, React Testing Library, Cypress
-- Docker, GitHub Actions, Vercel, Google Cloud Platform
-
-### Development Workflow
-- AI-assisted development using **Cursor, Codex, and Antigravity**  
-  *(used for prototyping, refactors, and test scaffolding — not as a replacement for design or engineering judgment)*
-
----
-
-## Experience Snapshot
-
-### Next.js Developer — Shikha Learning Labs  
-*Nov 2024 – Present*
-
-- Frontend owner for AI-driven education platforms used by teachers across **50+ schools**
-- Built offline-first PWA and Android app for low-network environments
-- Reduced classroom evaluation workflows from **1 hour to 5 minutes**
-- Delivered multiple production applications with **zero critical bugs**
-
-### Full Stack Developer — Nuveb  
-*May 2023 – Sep 2024*
-
-- Optimized an OTT platform serving **50k+ monthly users**
-- Improved page load times by **70%** using advanced Next.js rendering strategies
-- Contributed to a React Native app resulting in **15% retention improvement**
-
-👉 Full experience details:  
-**Resume:** https://drive.google.com/file/d/1dXCSi_ufn4W0W9mrIpKgU_w9ONNmqsWF/view
-
----
-
-## Selected Projects
-
-### LinkedIn Hashtag Engine
-AI-powered tool for generating context-aware LinkedIn hashtags.
-
-- Built with Next.js, TypeScript, and Gemini Flash
-- **2.1s** average response time, **99.9% uptime**
-- Serving real users with production monitoring
-
-- GitHub: https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app  
-- Live: https://ai-linkedin-hashtag-refresh-engine-app.vercel.app
-
----
-
-### AlgoFi — Open Source Contribution
-Decentralized NFT marketplace on Algorand TestNet.
-
-- Frontend contributor via **Social Winter of Code (SWOC)**
-- Implemented persistent theming and UI interaction improvements
-- Worked within a multi-contributor open-source codebase
-
-- GitHub: https://github.com/denshaw-09/AlgoFi  
-- Live (TestNet): https://algo-fi.vercel.app
-
----
-
-## Writing
-
-I write about frontend engineering, performance, and real-world product lessons on **dev.to**:
-
-- Blog: https://dev.to/saurav_dev_2022
-
-Topics include:
-- Next.js performance strategies
-- frontend architecture decisions
-- productivity without sacrificing code quality
-
----
-
-## Contact
-
-- LinkedIn: https://www.linkedin.com/in/saurav02022  
-- Portfolio: https://saurav02022-portfolio.vercel.app  
-- Email: sk729584@gmail.com
-
----
-
-*Focused on building reliable products and continuously improving engineering practice.*
+* LinkedIn: https://linkedin.com/in/saurav02022
+* GitHub: https://github.com/saurav02022
+* Portfolio: https://saurav02022-portfolio.vercel.app
+* Email: [sk729584@gmail.com](mailto:sk729584@gmail.com)
