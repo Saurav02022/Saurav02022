@@ -1,105 +1,50 @@
-# Hi, I'm Saurav Kumar 👋
+# Saurav Kumar
 
-## Software Engineer II | Full-Stack / Frontend Engineer
+**I build software that keeps working when the network doesn't.**
 
-I build production web applications, AI-assisted product workflows, and reliable frontend-backend systems using React, Next.js, TypeScript, FastAPI, PostgreSQL, and Redis.
+Full-stack + LLM engineer, 3+ years in production. Based in Mumbai, open to relocating. I own the whole path — API to deploy — and design for the parts that actually break: the connection that drops, the model that answers off-schema, the vendor API that fires the same webhook twice. The unglamorous work — retry logic, idempotent writes, the reconnect path — is usually where a product is won or lost.
 
-My strongest work is in end-to-end product engineering: shipping user-facing apps, improving performance, building async AI workflows, and making systems reliable in real usage conditions. I also use AI coding tools like Claude, Cursor, and Codex to speed up development, debugging, refactoring, and code review without treating them as a replacement for engineering judgment.
+## What I focus on
 
----
+- **Owning the whole path** — API, database schema, and deploy, not just the UI.
+- **Reliability under bad conditions** — idempotent writes, offline-first sync, retries that never double-write.
+- **Schema-locked LLM features** — model output pinned to a schema with deterministic fallbacks, so a flaky model can't corrupt the app.
+- **Tests that gate deploys** — E2E and unit suites wired into CI, so a red build doesn't ship.
 
-## What I Work On
+## Experience
 
-* Full-stack web applications with React, Next.js, TypeScript, FastAPI, and PostgreSQL
-* AI-assisted product workflows using OpenAI API, Gemini API, fixed-schema responses, and async processing
-* AI-assisted engineering workflows using Claude, Cursor, and Codex for development, debugging, refactoring, and review
-* Offline-first systems for low-network environments
-* Async backend processing with queues, workers, idempotent jobs, and webhooks
-* Frontend performance, SSR/SSG tradeoffs, and production reliability
+**Shikha Learning Labs** — Software Engineer · EdTech · Nov 2024–present
 
----
+- 4 production apps (web + Android) across **117 schools**, holding **96%+ crash-free** on a shared Next.js API layer and a PostgreSQL schema I designed.
+- Cut a teacher's grading pass from **40 minutes to 5–10** with an async Redis queue and FastAPI workers on Gemini — now **400+ evaluations a week** for **200+ teachers**.
+- **98% API success over 5,000+ submissions** with idempotent retries against a fixed schema; stopped data loss at **50+ low-network schools** with an offline-first IndexedDB queue.
 
-## Professional Work
+**Nuveb** — Full-Stack Developer · Creator OTT platform · May 2023–Sep 2024
 
-### Shikha Learning Labs
+- Built the creator portal's video, scheduling, and payment modules as it grew from **0 to 10,000+ creators**.
+- Cut page load **8.5s → 2.5s** for **50,000+ monthly users** (moved over-fetched catalogue pages from SSR to SSG); dropped image API latency **3.2s → 1.9s** with server-side Sharp.
 
-**Role:** Software Engineer
-**Focus:** EdTech products, AI workflows, offline-first systems, and production applications
+*Company source is private — the projects below are where you can read my code.*
 
-* Owned 4 production apps end-to-end as a founding engineer across products used in 117 schools.
-* Built async AI evaluation workflows with Redis queues, FastAPI workers, and Google Gemini.
-* Helped reduce teacher evaluation time from 40 minutes to 5 minutes.
-* Designed idempotent AI job handling to safely process 5,000+ student submissions.
-* Built offline-first flows using IndexedDB queues and batched sync for low-network schools.
+## Selected projects
 
-**Note:** Professional project source code is private.
+- **[AI Résumé Builder](https://github.com/Saurav02022/resume-builder)** — tailors a résumé to a job with Gemini pinned to a Pydantic schema at temperature 0, a side-by-side diff you approve before export, and LaTeX/PDF output. 31 Playwright tests gate the deploy. `Next.js · FastAPI · Gemini` · [live](https://resume-builder-saurav02022.vercel.app)
+- **[RTO Shield](https://github.com/Saurav02022/rto-shield)** — a voice-AI console that confirms risky cash-on-delivery orders before dispatch. At-least-once webhooks made exactly-once over a ports/adapters store (in-memory for tests, Firestore in prod). 19 pytest + 14 Vitest. `FastAPI · Next.js · Bolna`
+- **[Claims Adjudication Engine](https://github.com/Saurav02022/claims-processing-system)** — health-insurance claims through a pure Decimal engine and a single atomic Postgres function, with append-only history. 74 tests — more test code than app code. `FastAPI · PostgreSQL · Supabase`
+- **[Intervue](https://github.com/Saurav02022/ai-interview)** — a mock-interview marketplace: book with credits, transcribed video call, AI feedback after. Idempotent payout keyed on the booking, Clerk JWTs verified via JWKS, keyless deploys gated on a container smoke test. `Next.js · FastAPI · Stream · Gemini`
 
-### Nuveb
+Full write-ups, plus two more builds → **[portfolio](https://saurav02022-portfolio.vercel.app)**
 
-**Role:** Full Stack Developer
-**Focus:** Creator platform, video content workflows, frontend performance, and API integrations
+## Stack
 
-* Built platform modules for video management, publishing schedules, and payments.
-* Improved page load performance by moving static catalog pages from over-fetched SSR to SSG.
-* Reduced image API response time by profiling resizing bottlenecks and improving processing strategy.
+- **Languages** — TypeScript · Python · JavaScript · SQL
+- **Frontend** — Next.js · React · React Native
+- **Backend** — FastAPI · Node.js
+- **Data** — PostgreSQL · Redis · Firestore · IndexedDB
+- **LLM** — Google Gemini (schema-locked)
+- **Cloud & CI** — Docker · GCP Cloud Run · Vercel · GitHub Actions
+- **Testing & monitoring** — Playwright · pytest · Sentry
 
-**Note:** Professional project source code is private.
+## Links
 
----
-
-## Selected Public Projects
-
-### Intervue — Mock Interview Marketplace
-
-**What it is:** A mock interview marketplace where interviewees book 1:1 video sessions and receive AI-generated structured feedback after recorded calls.
-**My role:** Built the full-stack product architecture and implementation.
-**Tech used:** Next.js, React, TypeScript, FastAPI, Python, Supabase PostgreSQL, Clerk, Stream Video, Google Gemini, Docker, GitHub Actions, GCP Cloud Run
-**Why it matters:** Shows full-stack system design, role-based auth, transactional booking logic, video workflows, async webhooks, AI feedback generation, and CI/CD deployment.
-**Link:** https://github.com/saurav02022/ai-interview
-
-### Resume Builder
-
-**What it is:** A resume tailoring platform where users upload a resume, add a target job description, review AI-assisted changes, and export LaTeX/PDF output.
-**My role:** Built the end-to-end product across frontend, backend, AI workflow, testing, and deployment.
-**Tech used:** Next.js, React, TypeScript, FastAPI, Google Gemini, Playwright, GitHub Actions, Vercel, GCP Cloud Run
-**Why it matters:** Shows product thinking, document parsing, schema-driven AI output, multi-step UX, E2E testing, and deployment automation.
-**Link:** https://github.com/saurav02022/resume-builder
-
-### RTO Shield — Voice AI Ops Console
-
-**What it is:** A voice-AI-assisted operations dashboard for verifying high-risk COD orders before dispatch using automated outbound calls.
-**My role:** Designed and built the full-stack workflow, backend integration, webhook handling, and deployment setup.
-**Tech used:** Next.js, TypeScript, FastAPI, Bolna, Firestore, Docker, GitHub Actions, GCP Cloud Run
-**Why it matters:** Shows practical full-stack engineering around real operational workflows, third-party voice AI integration, webhook idempotency, polling fallback, and cloud deployment.
-**Link:** https://github.com/saurav02022/bolna-assignment-web-app
-
----
-
-## Tech Stack
-
-**Frontend:** React.js, Next.js, TypeScript, JavaScript, Tailwind CSS, shadcn/ui
-**Backend:** FastAPI, Node.js, REST APIs, PostgreSQL, Redis
-**AI / LLM Integrations:** OpenAI API, Google Gemini API, DeepSeek API
-**AI Development Workflow:** Claude, Cursor, Codex
-**Cloud & DevOps:** GCP, Docker, GitHub Actions, Vercel
-**Testing & Monitoring:** Playwright, Cypress, Sentry, PostHog
-**Tools:** Git, JIRA
-
----
-
-## Current Focus
-
-* Building reliable full-stack products for real users
-* Improving frontend performance and production stability
-* Designing AI workflows that are predictable, testable, and safe to retry
-* Using AI coding tools to move faster while keeping code quality, architecture, and ownership clear
-* Strengthening system design, backend reliability, and product engineering depth
-
----
-
-## Connect
-
-* LinkedIn: https://linkedin.com/in/saurav02022
-* GitHub: https://github.com/saurav02022
-* Portfolio: https://saurav02022-portfolio.vercel.app
-* Email: [sk729584@gmail.com](mailto:sk729584@gmail.com)
+[Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
