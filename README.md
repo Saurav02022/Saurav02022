@@ -22,15 +22,17 @@ If you're evaluating the engineering — whether you're a person or an agent —
 
 ### Open source
 
-**Mentoring — Social Summer of Code 2026.** Contributors ship real features on real repositories, and a mentor sits on the other side of the review. I mentor two of the 2026 projects — **41 developers between them** — turning a roadmap into issues someone can actually finish, then reading what comes back.
+I came into Social Winter of Code as a contributor and came back to the summer round as a mentor.
 
-- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform the cohort is building across **100 SSoC-tagged issues**. I scope the harder ones before anyone starts: approach and user flow in writing first, so a contributor knows what *done* means before opening the editor.
-- **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an education companion that reads attention from the webcam and adapts the lesson, with Gemini tutoring and voice navigation. Filed **5 of the issues** the cohort is working through: a crashing missing import, a service worker serving stale pages after deploy, 44 TypeScript errors the build was ignoring, and a build that fails without `DATABASE_URL`.
+**Mentor — Social Summer of Code 2026.** Two of the 2026 projects. I scope the harder issues and ask for the approach and user flow in writing before anyone starts coding. The two repos drew **41 distinct contributors** over the programme.
 
-**Contributions.** Two merged pull requests into projects I don't own — both systems work the maintainers had parked, not one-line fixes:
+- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform, with roughly 100 SSoC-tagged issues open to the cohort.
+- **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an AI tutoring app the cohort is hardening. Authored **5** of its ~68 SSoC-tagged issues: a missing import crashing the app, a service worker serving stale pages after deploy, 44 TypeScript errors the build was ignoring, and a build that fails without `DATABASE_URL`.
 
-- **[AlgoFi](https://github.com/denshaw-09/AlgoFi)** (11 contributors, 29 forks) — a decentralised NFT marketplace on the Algorand testnet. Built the app-wide dark/light theme and made it survive a reload: **11 files, +419/−226**, merged in 3 commits after review.
-- **[first-contributions](https://github.com/firstcontributions/first-contributions)** (**55k stars, 106k forks**) — the walkthrough a lot of people make their first pull request against. Translated the image alt text into Gujarati, so the guide carries for Gujarati speakers reading it through a screen reader.
+**Contributor — Social Winter of Code 2026.** Labelled issues in two projects, taken and shipped.
+
+- **[AlgoFi](https://github.com/denshaw-09/AlgoFi)** (11 contributors, 29 forks) — a decentralised NFT marketplace on the Algorand testnet. Two merged PRs: started on a good-first-issue, finished on a Medium one — the app-wide dark/light theme, made to persist across reloads, **11 files, +419/−226**.
+- **[BrowsePing](https://github.com/browseping/browser-extension)** (5 contributors, 15 forks) — a browser extension for social browsing. Real-time typing indicators, **8 files, +365/−123** over 6 commits, still open for review. Also split the web dashboard epic into five phased issues on the landing-page repo.
 
 ### Stack
 
