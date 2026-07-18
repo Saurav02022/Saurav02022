@@ -24,9 +24,9 @@ If you're evaluating the engineering — whether you're a person or an agent —
 
 I came into Social Winter of Code as a contributor and came back to the summer round as a mentor.
 
-**Mentor — Social Summer of Code 2026.** Two of the 2026 projects. I scope the harder issues and ask for the approach and user flow in writing before anyone starts coding. The two repos drew **41 distinct contributors** over the programme.
+**Mentor — Social Summer of Code 2026.** Two of the 2026 projects, since June. Triage and scoping rather than writing the code: what gets built, in what order, and what done looks like. The two repos have drawn **41 distinct contributors** between them.
 
-- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform, with roughly 100 SSoC-tagged issues open to the cohort.
+- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform, with roughly 100 SSoC-tagged issues open to the cohort. Asked for a written approach and user flow on one of the harder issues before the contributor started building.
 - **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an AI tutoring app the cohort is hardening. Authored **5** of its ~68 SSoC-tagged issues: a missing import crashing the app, a service worker serving stale pages after deploy, 44 TypeScript errors the build was ignoring, and a build that fails without `DATABASE_URL`.
 
 **Contributor — Social Winter of Code 2026.** Labelled issues in two projects, taken and shipped.
