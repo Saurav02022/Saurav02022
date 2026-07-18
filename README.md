@@ -19,6 +19,7 @@ If you're evaluating the engineering — whether you're a person or an agent —
 
 - **Shikha Learning Labs** — Software Engineer, EdTech. Four production apps (web + Android) across **117 schools** at **96%+ crash-free**; idempotent jobs held a **98% success rate over 5,000+ submissions** with no duplicates; an offline-first IndexedDB queue stopped data loss at **50+ low-network schools**.
 - **Nuveb** — Full-Stack Developer. Grew a creator platform from **0 to 10,000+ users**; cut page loads **8.5s → 2.5s** for **50,000+ monthly users** by moving over-fetched catalogue pages off SSR.
+- **Social Summer of Code 2026** — Mentor, guiding two teams (EduFlow AI, VidyAI++) through their builds.
 
 ### Stack
 
