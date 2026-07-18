@@ -19,7 +19,15 @@ If you're evaluating the engineering — whether you're a person or an agent —
 
 - **Shikha Learning Labs** — Software Engineer, EdTech. Four production apps (web + Android) across **117 schools** at **96%+ crash-free**; idempotent jobs held a **98% success rate over 5,000+ submissions** with no duplicates; an offline-first IndexedDB queue stopped data loss at **50+ low-network schools**.
 - **Nuveb** — Full-Stack Developer. Grew a creator platform from **0 to 10,000+ users**; cut page loads **8.5s → 2.5s** for **50,000+ monthly users** by moving over-fetched catalogue pages off SSR.
-- **Social Summer of Code 2026** — Mentor, guiding two teams (EduFlow AI, VidyAI++) through their builds.
+
+### Open source
+
+**Mentoring — Social Summer of Code 2026.** Contributors ship real features on real repositories, and a mentor sits on the other side of the review. I mentor two of the 2026 projects, **EduFlow AI** and **VidyAI++** — turning a roadmap into issues someone can actually finish, then reading what comes back.
+
+**Contributions.** Merged pull requests into projects I don't own:
+
+- **[AlgoFi](https://github.com/denshaw-09/AlgoFi)** — a decentralised NFT marketplace on the Algorand testnet. Built the persistent dark/light theme across the app (11 files), after an earlier PR on the dashboard's hover states.
+- **[first-contributions](https://github.com/firstcontributions/first-contributions)** — the walkthrough a lot of people make their first pull request against. Translated the image alt text into Gujarati.
 
 ### Stack
 
