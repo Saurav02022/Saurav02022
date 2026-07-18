@@ -22,7 +22,10 @@ If you're evaluating the engineering — whether you're a person or an agent —
 
 ### Open source
 
-**Mentoring — Social Summer of Code 2026.** Contributors ship real features on real repositories, and a mentor sits on the other side of the review. I mentor two of the 2026 projects, **EduFlow AI** and **VidyAI++** — turning a roadmap into issues someone can actually finish, then reading what comes back.
+**Mentoring — Social Summer of Code 2026.** Contributors ship real features on real repositories, and a mentor sits on the other side of the review. I mentor two of the 2026 projects — **41 developers between them** — turning a roadmap into issues someone can actually finish, then reading what comes back.
+
+- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform the cohort is building across **100 SSoC-tagged issues**. I scope the harder ones before anyone starts: approach and user flow in writing first, so a contributor knows what *done* means before opening the editor.
+- **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an education companion that reads attention from the webcam and adapts the lesson, with Gemini tutoring and voice navigation. Filed **5 of the issues** the cohort is working through: a crashing missing import, a service worker serving stale pages after deploy, 44 TypeScript errors the build was ignoring, and a build that fails without `DATABASE_URL`.
 
 **Contributions.** Two merged pull requests into projects I don't own — both systems work the maintainers had parked, not one-line fixes:
 
