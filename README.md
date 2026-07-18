@@ -17,14 +17,15 @@ Full-stack + LLM engineer · 3+ years in production · Mumbai, open to relocatin
 
 I own the whole path — API to deploy — and design for the parts that actually break: the connection that drops, the model that answers off-schema, the vendor API that fires the same webhook twice. The unglamorous work — retry logic, idempotent writes, the reconnect path — is usually where a product is won or lost.
 
-## ⚡ What I focus on
+## 01 · How I build
 
-- **Owning the whole path** — API, database schema, and deploy, not just the UI.
-- **Reliability under bad conditions** — idempotent writes, offline-first sync, retries that never double-write.
-- **Schema-locked LLM features** — model output pinned to a schema with deterministic fallbacks, so a flaky model can't corrupt the app.
-- **Tests that gate deploys** — E2E and unit suites wired into CI, so a red build doesn't ship.
+- **APIs & services** — REST in FastAPI: JWTs verified against JWKS so auth stays stateless across services, per-user token-bucket rate limits, one typed error envelope, and an idempotency key on every write a retry could double-apply.
+- **Data modelling** — Postgres schemas I design: a claim and all its line items committed in one atomic function, append-only history for audit, `Decimal` (never float) for money — plus Redis queues for async work and an offline-first IndexedDB store that replays on reconnect.
+- **Distributed behaviour** — the hard 20%: at-least-once webhooks reconciled to exactly-once behind a ports/adapters seam, async workers, and deterministic fallbacks so a model going down never takes the product with it.
+- **Delivery** — containerised deploys gated on a build → boot → `/health` smoke test, keyless CI to GCP via Workload Identity, and E2E + unit suites that block a red build.
+- **LLMs in production** — output pinned to a schema (Pydantic, temperature 0), the math kept deterministic with the model only writing on top, and a fixed fallback for when it drifts.
 
-## 💼 Experience
+## 02 · Experience
 
 **Shikha Learning Labs** — Software Engineer · EdTech · Nov 2024–present
 
@@ -39,7 +40,7 @@ I own the whole path — API to deploy — and design for the parts that actuall
 
 _Company source is private — the projects below are where you can read my code._
 
-## 📦 Selected projects
+## 03 · Selected projects
 
 ### [AI Résumé Builder](https://github.com/Saurav02022/resume-builder)
 [![live](https://img.shields.io/badge/live-2E9E62?style=flat-square&logo=vercel&logoColor=white)](https://resume-builder-saurav02022.vercel.app) ![tests](https://img.shields.io/badge/tests-31-0A6B57?style=flat-square)
@@ -82,7 +83,7 @@ Budgeting, saving, and investing coaching where the math is deterministic TypeSc
 
 `Next.js` · `Supabase` · `Gemini` · `Vitest`
 
-## 🧰 Tech stack
+## 04 · Tech stack
 
 **Languages**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
