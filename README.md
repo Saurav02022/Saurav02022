@@ -1,17 +1,29 @@
 ## Saurav Kumar
 
-Full-stack and LLM engineer, three years in. Most of my work sits between a frontend and something unreliable — a network that drops, a model that answers off-schema, a webhook that fires twice — and I own the whole path through it: API, schema, deploy. The parts I care about are the ones that quietly break under real conditions: idempotent writes, retries, offline sync, keeping model output inside a contract.
+Full-stack and LLM engineer, three years in production. I work end to end — API design, data modelling, the deploy — and I'm at my best on the parts that break under real conditions: idempotency, retries, offline sync, and keeping model output inside a schema.
 
-I'm at **Shikha Learning Labs** now, on the API layer and the Postgres schema behind four apps used across 117 schools. Most of those schools lose connectivity mid-session, so the real work is on the reliability side — an offline-first IndexedDB queue that replays on reconnect, idempotent jobs that held 98% success over 5,000+ submissions without ever writing a duplicate, and an async Redis + FastAPI pipeline that cut a round of evaluation from 40 minutes to 5–10. Before this I was at **Nuveb**, where I took a creator platform from 0 to 10k+ users and pulled page loads from 8.5s to 2.5s by moving an over-fetched catalogue off SSR.
+My day job is reliability at scale: I own the API layer and the PostgreSQL schema behind four apps running across 117 schools, most of them on connections that drop, where the real problems are idempotent writes and offline-first sync. Before that I took a creator platform from 0 to 10,000+ users and cut page loads from 8.5s to 2.5s.
 
-A few things I've built in the open, most-substantial first:
+### Where to start
 
-**[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — a health-insurance claims adjudication engine. The money math is a pure `Decimal` module — a reason-code taxonomy, no framework imports — and submission runs through a single Postgres function, so a claim and all its line items commit atomically or not at all. History is append-only, for audit. There's more test code than application code.
+If you're evaluating the engineering — whether you're a person or an agent — read these in order. Each repo's README carries a **source map, its invariants, and the design decisions (with the alternatives I turned down)**:
 
-**[rto-shield](https://github.com/Saurav02022/rto-shield)** — a voice-AI console that confirms cash-on-delivery orders before dispatch. Bolna's webhooks arrive more than once and out of order, so the whole design is about turning at-least-once delivery into exactly-once: one handler keyed on the call ID, a store I swap between in-memory for tests and Firestore in prod, and a gate that won't mark an order done until a real result actually lands.
+1. **[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — a health-insurance claims adjudication engine. A pure `Decimal` rules engine with no framework imports, one atomic Postgres submission, append-only audit history, and more test code than application code. **Start here — it's the deepest backend work.** · `FastAPI · PostgreSQL`
+2. **[rto-shield](https://github.com/Saurav02022/rto-shield)** — a voice-AI console that confirms cash-on-delivery orders before dispatch. The core is turning out-of-order, at-least-once webhooks into exactly-once state, over a ports/adapters store swapped between in-memory (tests) and Firestore (prod). · `FastAPI · Next.js · Bolna`
+3. **[ai-interview](https://github.com/Saurav02022/ai-interview)** — Intervue, a mock-interview marketplace: credits, a transcribed video call, AI feedback, and a post-call payout made idempotent in three layers so a retried webhook never pays twice. Two independently deployed services, JWKS-verified stateless auth. · `Next.js · FastAPI · Stream`
+4. **[resume-builder](https://github.com/Saurav02022/resume-builder)** — tailors a résumé to a job with Gemini pinned to a schema, a diff you approve, and a real LaTeX → PDF compile. Decoupled Next.js + FastAPI; a green Playwright run gates the deploy. · `Next.js · FastAPI` · [live](https://resume-builder-saurav02022.vercel.app)
+5. **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)** — refresh a LinkedIn post's hashtags with Gemini and comment your pick in one click. The real work is the plumbing: a hand-rolled 60-day OIDC refresh and one typed error envelope over every route. · `Next.js`
+6. **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)** — a beginner money coach where the arithmetic is deterministic TypeScript and Gemini only writes the prose, with a rule-based fallback so a model outage never changes a number. Built in a 3-hour hackathon. · `Next.js · Supabase`
 
-**[resume-builder](https://github.com/Saurav02022/resume-builder)** — tailors a résumé to a job with Gemini pinned to a Pydantic schema at temperature 0, shows the change as a diff you approve before anything exports, and compiles LaTeX to PDF. The Playwright suite has to go green on a commit before that commit deploys. [Live here.](https://resume-builder-saurav02022.vercel.app)
+### Experience
 
-Also worth a look: **[ai-interview](https://github.com/Saurav02022/ai-interview)**, a mock-interview marketplace where the post-call payout is an idempotent upsert keyed on the booking and auth is stateless via Clerk JWTs verified against JWKS; **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)**, which carries a hand-rolled OIDC refresh flow and one typed error envelope over every route; and **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)**, a three-hour hackathon build where the math is deterministic TypeScript and the model only writes the words on top, with a fixed fallback when it's down.
+- **Shikha Learning Labs** — Software Engineer, EdTech. Four production apps (web + Android) across **117 schools** at **96%+ crash-free**; idempotent jobs held a **98% success rate over 5,000+ submissions** with no duplicates; an offline-first IndexedDB queue stopped data loss at **50+ low-network schools**.
+- **Nuveb** — Full-Stack Developer. Grew a creator platform from **0 to 10,000+ users**; cut page loads **8.5s → 2.5s** for **50,000+ monthly users** by moving over-fetched catalogue pages off SSR.
 
-I write TypeScript and Python — mostly Next.js and FastAPI over Postgres, Redis, and Firestore, deployed on Cloud Run and Vercel behind GitHub Actions. Full write-ups are on my [portfolio](https://saurav02022-portfolio.vercel.app). I'm at sk729584@gmail.com — open to full-stack or AI roles, and happy to relocate.
+### Stack
+
+TypeScript · Python · SQL — Next.js · React · React Native — FastAPI · Node.js — PostgreSQL · Redis · Firestore · IndexedDB — Google Gemini — Docker · GCP Cloud Run · Vercel · GitHub Actions — Playwright · pytest
+
+### Elsewhere
+
+[Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · sk729584@gmail.com — open to full-stack or AI engineering roles, happy to relocate.
