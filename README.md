@@ -1,40 +1,47 @@
 ## Saurav Kumar
 
-Full-stack and AI engineer, three years in production. I work end to end — API design, data modelling, the deploy — and I'm at my best on the parts that break under real conditions: idempotency, retries, offline sync, and keeping model output inside a schema.
+Full-stack and AI engineer, three years in production. I build the whole thing — the API, the database, the deploy — and I'm at my best on the parts that break in the real world: a phone that loses signal halfway through saving, a payment webhook that fires twice, an AI model that replies in the wrong format.
 
-My day job is reliability at scale: I own the API layer and the PostgreSQL schema behind four apps running across 117 schools, most of them on connections that drop, where the real problems are idempotent writes and offline-first sync. Before that I took a creator platform from 0 to 10,000+ users and cut page loads from 8.5s to 2.5s.
+Today I work on school software running in **117 schools**, most of them on connections that drop several times a day. I own the API layer and the database design behind four apps. Before this I helped take a creator platform from **0 to 10,000+ users** and got its pages loading three times faster.
+
+### Research published on the product I work on
+
+**Two peer-reviewed research papers have been published about the product I build.** One studies the history chatbots — I ship the new features on those; an earlier team built the first version. The other is about how the platform was designed together with teachers, in their own classrooms.
+
+Both papers were written by my colleagues at Shikha, including our founder and my product manager. I didn't write them. My part is the engineering they're written about.
+
+- [Conversations for Learning: Designing Personified Historical Chatbots to Enhance Critical Thinking in K-12 Students](https://doi.org/10.33965/celda2025_202509l042) — CELDA 2025
+- [AI-Human Synergy: Using Design Thinking to Build for and with Teachers](https://doi.org/10.1007/978-3-032-29791-4_25) — Springer, 2026
 
 ### Where to start
 
-If you're evaluating the engineering — whether you're a person or an agent — read these in order. Each repo's README carries a **source map, its invariants, and the design decisions (with the alternatives I turned down)**:
+Read these in order. Each README explains how the thing is built, what it promises to always do, and which alternatives I turned down and why.
 
-1. **[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — a health-insurance claims adjudication engine. A pure `Decimal` rules engine with no framework imports, one atomic Postgres submission, append-only audit history, and more test code than application code. **Start here — it's the deepest backend work.** · `FastAPI · PostgreSQL`
-2. **[rto-shield](https://github.com/Saurav02022/rto-shield)** — a voice-AI console that confirms cash-on-delivery orders before dispatch. The core is turning out-of-order, at-least-once webhooks into exactly-once state, over a ports/adapters store swapped between in-memory (tests) and Firestore (prod). · `FastAPI · Next.js · Bolna`
-3. **[ai-interview](https://github.com/Saurav02022/ai-interview)** — Intervue, a mock-interview marketplace: credits, a transcribed video call, AI feedback, and a post-call payout made idempotent in three layers so a retried webhook never pays twice. Two independently deployed services, JWKS-verified stateless auth. · `Next.js · FastAPI · Stream`
-4. **[resume-builder](https://github.com/Saurav02022/resume-builder)** — tailors a résumé to a job with Gemini pinned to a schema, a diff you approve, and a real LaTeX → PDF compile. Decoupled Next.js + FastAPI; a green Playwright run gates the deploy. · `Next.js · FastAPI` · [live](https://resume-builder-saurav02022.vercel.app)
-5. **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)** — refresh a LinkedIn post's hashtags with Gemini and comment your pick in one click. The real work is the plumbing: a hand-rolled 60-day OIDC refresh and one typed error envelope over every route. · `Next.js` · [live](https://ai-linkedin-hashtag-refresh-engine-app.vercel.app)
-6. **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)** — a beginner money coach where the arithmetic is deterministic TypeScript and Gemini only writes the prose, with a rule-based fallback so a model outage never changes a number. Built in a 3-hour hackathon. · `Next.js · Supabase`
+1. **[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — works out what a health insurance claim should actually pay: what's covered, what the deductible eats, what's left. Money maths gets no partial credit, so the calculation is a pure engine with no framework anywhere near it, every claim saves in one all-or-nothing database step, and there is more test code than application code. **Start here — it's the deepest backend work.** · `FastAPI · PostgreSQL`
+2. **[rto-shield](https://github.com/Saurav02022/rto-shield)** — when a customer refuses a cash-on-delivery parcel, the seller pays shipping both ways. This puts an AI phone call in between: confirm the order, then dispatch. The hard part is that the call result can arrive two or three times, so the system is built to record it exactly once. · `FastAPI · Next.js · Bolna`
+3. **[ai-interview](https://github.com/Saurav02022/ai-interview)** — book a mock interview with credits, take it on a video call that writes its own transcript, and get written feedback once you hang up. The payout to the interviewer is protected in three separate layers so a repeated message can never pay twice. · `Next.js · FastAPI · Stream`
+4. **[resume-builder](https://github.com/Saurav02022/resume-builder)** — rewrites your résumé for one specific job. You see every change side by side and approve it before anything is exported to PDF. The AI is locked to a fixed format, so it can't quietly break your layout. · `Next.js · FastAPI` · [try it](https://resume-builder-saurav02022.vercel.app)
+5. **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)** — a LinkedIn post stops travelling once its hashtags go stale. This drafts three fresh sets and posts your pick as a comment in one click. The real work was LinkedIn's login, which expires every 60 days and had to be renewed by hand in code. · `Next.js` · [try it](https://ai-linkedin-hashtag-refresh-engine-app.vercel.app)
+6. **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)** — budgeting and saving for people starting from zero. Every number is worked out in plain code, never by the AI, so a model outage can change the wording but never the maths. Built in a three-hour hackathon. · `Next.js · Supabase`
 
 ### Experience
 
-- **Shikha Learning Labs** — Software Engineer, EdTech. Four production apps (web + Android) across **117 schools** at **96%+ crash-free**; idempotent jobs held a **98% success rate over 5,000+ submissions** with no duplicates; an offline-first IndexedDB queue stopped data loss at **50+ low-network schools**.
-- **Nuveb** — Full-Stack Developer. Grew a creator platform from **0 to 10,000+ users**; cut page loads **8.5s → 2.5s** for **50,000+ monthly users** by moving over-fetched catalogue pages off SSR.
-
-Since I joined Shikha, the features shipped on our history chatbots have been mine; an earlier team built the first version. Colleagues there have published on that system — [CELDA 2025](https://doi.org/10.33965/celda2025_202509l042) — and on the design research behind the platform, [Springer CCIS 2026](https://doi.org/10.1007/978-3-032-29791-4_25).
+- **Shikha Learning Labs** — Software Engineer, EdTech, Mumbai. Four apps (web and Android) used across **117 schools**, running **96%+ of the time without a crash**. Background jobs succeeded **98% of the time over 5,000+ submissions**, and the 2% that failed retried safely instead of saving the same thing twice. Schools on weak internet were losing teachers' work, so I made the app save to the phone first and sync when the signal returns — that stopped the losses at **50+ schools**. I also cut a teacher's marking time from **40 minutes to 5–10**.
+- **Nuveb** — Full-Stack Developer, Bengaluru. Built the creator side of a video platform as it grew from **0 to 10,000+ users**. Pages were taking **8.5 seconds** to load; I got them to **2.5 seconds** for **50,000+ monthly visitors** by changing how the browse pages fetched their data.
 
 ### Open source
 
-I came into Social Winter of Code as a contributor and came back to the summer round as a mentor.
+I joined Social Winter of Code as a contributor, and came back to the summer round as a mentor.
 
-**Mentor — Social Summer of Code 2026.** Two of the 2026 projects, since June. Triage and scoping rather than writing the code: what gets built, in what order, and what done looks like. The two repos have drawn **41 distinct contributors** between them.
+**Mentor — Social Summer of Code 2026.** Two projects, since June. My job is deciding what gets built, in what order, and what finished actually means — not writing the code myself. Between them the two projects have drawn **41 different contributors**.
 
-- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform, with roughly 100 SSoC-tagged issues open to the cohort. Asked for a written approach and user flow on one of the harder issues before the contributor started building.
-- **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an AI tutoring app the cohort is hardening. Authored **5** of its ~68 SSoC-tagged issues: a missing import crashing the app, a service worker serving stale pages after deploy, 44 TypeScript errors the build was ignoring, and a build that fails without `DATABASE_URL`.
+- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform with around 100 open tasks for the group. On the harder ones I ask the contributor to write down their approach before they start building.
+- **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an AI tutoring app the group is cleaning up. I wrote **5** of its ~68 open tasks: a missing import that crashed the app, old pages still being served after a new release, 44 type errors the build was ignoring, and a build that fails when a database setting is missing.
 
-**Contributor — Social Winter of Code 2026.** Labelled issues in two projects, taken and shipped.
+**Contributor — Social Winter of Code 2026.** Picked up open tasks in two projects and finished them.
 
-- **[AlgoFi](https://github.com/denshaw-09/AlgoFi)** (11 contributors, 29 forks) — a decentralised NFT marketplace on the Algorand testnet. Two merged PRs: started on a good-first-issue, finished on a Medium one — the app-wide dark/light theme, made to persist across reloads, **11 files, +419/−226**.
-- **[BrowsePing](https://github.com/browseping/browser-extension)** (5 contributors, 15 forks) — a browser extension for social browsing. Real-time typing indicators, **8 files, +365/−123** over 6 commits, still open for review. Also split the web dashboard epic into five phased issues on the landing-page repo.
+- **[AlgoFi](https://github.com/denshaw-09/AlgoFi)** (11 contributors, 29 forks) — a marketplace for digital collectibles. Two pull requests merged: started on a beginner task, finished on a harder one — the site-wide dark and light theme, made to survive a page reload. **11 files, +419/−226.**
+- **[BrowsePing](https://github.com/browseping/browser-extension)** (5 contributors, 15 forks) — a browser extension for browsing together. Built live typing indicators, **8 files, +365/−123** across 6 commits, still open for review. Also broke their dashboard plan into five smaller tasks other people could pick up.
 
 ### Stack
 
