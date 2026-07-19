@@ -43,6 +43,8 @@ Mentor at Social Summer of Code 2026 for [EduFlow AI](https://github.com/prabhak
 
 ## Elsewhere
 
-Two papers came out of the Sakhee work, [CELDA 2025](https://doi.org/10.33965/celda2025_202509l042) and [Springer CCIS 2026](https://doi.org/10.1007/978-3-032-29791-4_25). Colleagues wrote them; my part is the engineering. B.Sc. Mathematics (Honours), Munger University. Currently doing an MCA at IIIT Ranchi on weekends.
+Two papers have been published about products I helped build, one at [AIED 2026](https://doi.org/10.1007/978-3-032-29791-4_25) on designing with teachers, and one at [CELDA 2025](https://doi.org/10.33965/celda2025_202509l042) on chatbots that take on the persona of a historical figure. Colleagues wrote both, not me. I was on the engineering team for the software they describe.
+
+B.Sc. Mathematics (Honours), Munger University. Currently doing an MCA at IIIT Ranchi on weekends.
 
 [Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · sk729584@gmail.com
