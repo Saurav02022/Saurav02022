@@ -6,9 +6,13 @@ Today I work on school software. I own the API behind four apps, web and Android
 
 ### What I'm working on now
 
-**Shikha Learning Labs** — Software Engineer, Mumbai. EdTech, used by teachers in government and low-fee schools.
+**Shikha Learning Labs** — Software Engineer, Mumbai. EdTech, used in government and private schools.
 
-Marking used to take a teacher forty minutes for one set. Most of that was waiting. I moved the scoring to a background queue, so the teacher starts it and goes away, and it comes back in five to ten minutes. About 400 evaluations run through it every week, for 200+ teachers.
+To assess how a teacher taught a class, a mentor had to sit in that class and watch the whole thing. A sixty-minute class cost a mentor sixty minutes. It also meant the assessment simply did not happen unless a mentor was free to be in the room that day.
+
+Now the teacher creates the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the assessment is built from it. It comes back in five to ten minutes, and no mentor has to be there for any of it. The scoring runs on a background queue, so nothing is held up while the teacher waits.
+
+We built the web app first, then the Android one. Both are in use today. About 400 assessments run through this every week, for 200+ teachers.
 
 The background jobs succeed 98% of the time over 5,000+ submissions. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice. Before that queue existed, schools on bad connections were losing teachers' work outright. Saving on the phone first and syncing later stopped it at 50+ schools.
 
