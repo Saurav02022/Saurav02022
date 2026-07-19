@@ -16,7 +16,7 @@ Coaching a teacher one to one is the thing that actually improves their teaching
 
 Now the teacher sets up the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the coaching is built from it: what went well, what to work on, and what to try instead next time. It comes back in five to ten minutes, with nobody in the room. The scoring runs on a background queue, so the teacher is not sitting there waiting on it.
 
-We built the web app first, then the Android one. Around 200 teachers use it, and most record at least two classes a week, so roughly 400 classes come through every week. Every one of those is an hour of teaching a mentor would have had to attend in full.
+The web app came first. **The Android app is mine end to end** — what it needed to do, both ends of it, the database, the Play Store release, and the testing with teachers afterwards. Around 200 teachers use it, and most record at least two classes a week, so roughly 400 classes come through every week. Every one of those is an hour of teaching a mentor would have had to attend in full.
 
 Those recordings are the whole product, so losing one is the worst thing that can happen. Schools on bad connections were losing them, so the app now saves to the phone first and sends the file once the signal is back. That stopped the losses at 50+ schools. A second problem was quieter and worse: on Android, unsaved audio was being deleted without anyone noticing, so nobody reported it, because nobody knew. I traced it and made every file prove it exists before anything writes over it. That recovered 20+ class recordings.
 
@@ -27,6 +27,12 @@ Students keep a public website of their own best work and add to it through the 
 Three kinds of people log in and none of them should see the same thing. A student sees their own work. A teacher sees the students assigned to them. A school admin sees their school. A teacher at one school never sees another school's students, and that is not a setting anyone can get wrong by accident.
 
 300+ students use it, and it has taken 5,000+ submissions so far. 98% of those go through first time. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice.
+
+### Other things I own here
+
+The institute's new website is mine end to end, still in development: 14 pages, and an admin area where staff edit their own content without going through a developer. A draft is kept separate from what the public sees, so a half-written page cannot leak onto the live site. It deploys with the new version taking no traffic until it has answered a health check, and the old one keeps serving if it does not.
+
+Our repositories also carry a knowledge graph I set up, so the AI coding agents we use can answer what depends on what without reading every file first. It runs on the machine, refreshes after each commit, and costs nothing to query.
 
 ### Research on what we build
 
