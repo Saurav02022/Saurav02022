@@ -2,19 +2,21 @@
 
 Software engineer, three years in production. I work out what a thing needs to do, design the database, write the API and the app, and put it live myself. On six of my own projects I was the only engineer on all of it. On one, nobody gave me a brief. I wrote the problem statement, decided who it was for, then built it.
 
-Today I work on school software. I own the API behind four apps, web and Android, and I designed the database under all four. A change to one table is a change all four apps have to live with, so that schema gets thought about before it gets written. The apps run in 117 schools. At about 50 of them the connection drops several times a day, so the app saves a teacher's work on the phone first and sends it once the signal comes back.
+Today I work on school software, in 117 schools, government and private. Two products are most of my work. One coaches a teacher on the class they just taught. The other is where students build a portfolio of their year and get assessed on it.
 
 ### What I'm working on now
 
 **Shikha Learning Labs** — Software Engineer, Mumbai. EdTech, used in government and private schools.
 
-I own the API and the database schema behind four apps. The one I have spent most time on is the **AI Teacher Coach**.
+I own the API behind four apps, web and Android, and I designed the database under all four. A change to one table is a change all four apps have to live with, so that schema gets argued about before it gets written.
+
+The product I have spent most time on is the **AI Teacher Coach**.
 
 Coaching a teacher one to one is the thing that actually improves their teaching. It is also the thing a school can least afford to do, because it needs a trained mentor sitting in the room for the whole class. A sixty-minute class costs a mentor sixty minutes, and the coaching only happens on the days somebody is free to attend.
 
 Now the teacher sets up the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the coaching is built from it: what went well, what to work on, and what to try instead next time. It comes back in five to ten minutes, with nobody in the room. The scoring runs on a background queue, so the teacher is not sitting there waiting on it.
 
-We built the web app first, then the Android one. Around 200 teachers use it, and most record at least two classes a week, so roughly 400 classes come through every week. Each one is an hour of teaching that would otherwise have needed a mentor sitting in the room for the whole hour.
+We built the web app first, then the Android one. Around 200 teachers use it, and most record at least two classes a week, so roughly 400 classes come through every week. Every one of those is an hour of teaching a mentor would have had to attend in full.
 
 Those recordings are the whole product, so losing one is the worst thing that can happen. Schools on bad connections were losing them, so the app now saves to the phone first and sends the file once the signal is back. That stopped the losses at 50+ schools. A second problem was quieter and worse: on Android, unsaved audio was being deleted without anyone noticing, so nobody reported it, because nobody knew. I traced it and made every file prove it exists before anything writes over it. That recovered 20+ class recordings.
 
@@ -22,15 +24,15 @@ The other one is the **AI-Assessed Portfolio Portal**, and I built that on my ow
 
 Students keep a public website of their own best work and add to it through the year. The hard part is not the website. It is that a blank page asks a fourteen-year-old to explain what they learned, and they write one line. So the portal walks them through it instead, with prompts that make them look at their own work before they write about it. An AI assessor then reads the finished portfolio and reports on how the student's skills are coming along, and it has to quote the student's actual work as evidence rather than hand back a score on its own.
 
+Three kinds of people log in and none of them should see the same thing. A student sees their own work. A teacher sees the students assigned to them. A school admin sees their school. A teacher at one school never sees another school's students, and that is not a setting anyone can get wrong by accident.
+
 300+ students use it, and it has taken 5,000+ submissions so far. 98% of those go through first time. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice.
 
-### Research published on the product I work on
+### Research on what we build
 
-Two peer-reviewed research papers have been published about the product I build. One studies the history chatbots. I ship the new features on those. An earlier team built the first version.
+Two peer-reviewed research papers have been published about work I am part of. One is on the history chatbots. That is a third product here, separate from the two above, and I ship the new features on it after an earlier team built the first version. The other is about how the platform was designed with teachers, in their own classrooms.
 
-The other is about how the platform was designed together with teachers, in their own classrooms.
-
-Both papers were written by my colleagues at Shikha, including our founder and my product manager. I didn't write them. My part is the engineering they're written about.
+Neither paper is mine. Colleagues at Shikha wrote both, including our founder and my product manager. My part is the engineering they are written about.
 
 - [Conversations for Learning: Designing Personified Historical Chatbots to Enhance Critical Thinking in K-12 Students](https://doi.org/10.33965/celda2025_202509l042) — CELDA 2025
 - [AI-Human Synergy: Using Design Thinking to Build for and with Teachers](https://doi.org/10.1007/978-3-032-29791-4_25) — Springer, 2026
