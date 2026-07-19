@@ -8,7 +8,7 @@ Today I work on school software, in 117 schools, government and private. Two pro
 
 **Shikha Learning Labs** — Software Engineer, Mumbai. EdTech, used in government and private schools.
 
-I own the API behind four apps, web and Android, and I designed the database under all four. A change to one table is a change all four apps have to live with, so that schema gets argued about before it gets written.
+Shikha Labs builds [Sakhee](https://shikha.ai), an AI tool for schoolteachers — planning a lesson, building an assessment, seeing how a class is doing. I am one of the engineers on it. I own the API behind four apps, web and Android, and I designed the database under all four. A change to one table is a change all four apps have to live with, so that schema gets argued about before it gets written.
 
 The product I have spent most time on is the **AI Teacher Coach**.
 
@@ -28,11 +28,13 @@ Three kinds of people log in and none of them should see the same thing. A stude
 
 300+ students use it, and it has taken 5,000+ submissions so far. 98% of those go through first time. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice.
 
-### Other things I own here
+### The rest of what I do here
 
-The institute's new website is mine end to end, still in development: 14 pages, and an admin area where staff edit their own content without going through a developer. A draft is kept separate from what the public sees, so a half-written page cannot leak onto the live site. It deploys with the new version taking no traffic until it has answered a health check, and the old one keeps serving if it does not.
+Two pieces of Sakhee are mine and I wrote both alone. The school calendar — terms, holidays, timetables — which I later pulled into its own service, so every app asks it instead of keeping its own copy of the dates. And the Google Drive link: a teacher's files sync both ways with every version kept, and while they are still typing it waits for a pause before saving. An hour of editing leaves one version, not forty. The build and deploy pipelines for our four services are mine as well.
 
-Our repositories also carry a knowledge graph I set up, so the AI coding agents we use can answer what depends on what without reading every file first. It runs on the machine, refreshes after each commit, and costs nothing to query.
+A state authority is having a platform built to check school quality. Three of us built it, and I built the front end: signing in, the different dashboard each kind of user sees, forms that save as you fill them so a bad connection does not cost an hour of work, a calendar of what is due, and the school report pages. A colleague wrote the part that does the scoring.
+
+I build whole products on my own here too. The institute's new website is mine end to end, still in development: 14 pages, and an admin area where staff edit their own content without going through a developer. A draft is kept separate from what the public sees, so a half-written page cannot leak onto the live site. It deploys with the new version taking no traffic until it has answered a health check, and the old one keeps serving if it does not. There is a second one, a content platform for a state education department, where I am the only engineer.
 
 ### Research on what we build
 
