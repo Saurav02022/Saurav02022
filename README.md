@@ -14,15 +14,15 @@ Coaching a teacher one to one is the thing that actually improves their teaching
 
 Now the teacher sets up the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the coaching is built from it: what went well, what to work on, and what to try instead next time. It comes back in five to ten minutes, with nobody in the room. The scoring runs on a background queue, so the teacher is not sitting there waiting on it.
 
-We built the web app first, then the Android one. Both are in use. About 400 assessments run through this every week, for 200+ teachers.
+We built the web app first, then the Android one. Around 200 teachers use it, and most record at least two classes a week, so roughly 400 classes come through every week. Each one is an hour of teaching that would otherwise have needed a mentor sitting in the room for the whole hour.
 
-The other one is the **AI-Assessed Portfolio Portal**, and I built that one on my own, start to finish, web and Android.
+Those recordings are the whole product, so losing one is the worst thing that can happen. Schools on bad connections were losing them, so the app now saves to the phone first and sends the file once the signal is back. That stopped the losses at 50+ schools. A second problem was quieter and worse: on Android, unsaved audio was being deleted without anyone noticing, so nobody reported it, because nobody knew. I traced it and made every file prove it exists before anything writes over it. That recovered 20+ class recordings.
+
+The other one is the **AI-Assessed Portfolio Portal**, and I built that on my own, start to finish, web and Android.
 
 Students keep a public website of their own best work and add to it through the year. The hard part is not the website. It is that a blank page asks a fourteen-year-old to explain what they learned, and they write one line. So the portal walks them through it instead, with prompts that make them look at their own work before they write about it. An AI assessor then reads the finished portfolio and reports on how the student's skills are coming along, and it has to quote the student's actual work as evidence rather than hand back a score on its own.
 
-The background jobs succeed 98% of the time over 5,000+ submissions. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice. Before that queue existed, schools on bad connections were losing teachers' work outright. Saving on the phone first and syncing later stopped it at 50+ schools.
-
-One bug is worth naming. On Android, unsaved audio was being deleted quietly. Nobody reported it as data loss because nobody knew it had happened. I traced it, and now every file is checked to exist before anything writes over it. That recovered 20+ class recordings.
+300+ students use it, and it has taken 5,000+ submissions so far. 98% of those go through first time. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice.
 
 ### Research published on the product I work on
 
