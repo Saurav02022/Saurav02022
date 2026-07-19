@@ -20,6 +20,8 @@ If you're evaluating the engineering — whether you're a person or an agent —
 - **Shikha Learning Labs** — Software Engineer, EdTech. Four production apps (web + Android) across **117 schools** at **96%+ crash-free**; idempotent jobs held a **98% success rate over 5,000+ submissions** with no duplicates; an offline-first IndexedDB queue stopped data loss at **50+ low-network schools**.
 - **Nuveb** — Full-Stack Developer. Grew a creator platform from **0 to 10,000+ users**; cut page loads **8.5s → 2.5s** for **50,000+ monthly users** by moving over-fetched catalogue pages off SSR.
 
+Since I joined Shikha, the features shipped on our history chatbots have been mine; an earlier team built the first version. Colleagues there have published on that system — [CELDA 2025](https://doi.org/10.33965/celda2025_202509l042) — and on the design research behind the platform, [Springer CCIS 2026](https://doi.org/10.1007/978-3-032-29791-4_25).
+
 ### Open source
 
 I came into Social Winter of Code as a contributor and came back to the summer round as a mentor.
