@@ -8,11 +8,13 @@ Today I work on school software. I own the API behind four apps, web and Android
 
 **Shikha Learning Labs** — Software Engineer, Mumbai. EdTech, used in government and private schools.
 
-To assess how a teacher taught a class, a mentor had to sit in that class and watch the whole thing. A sixty-minute class cost a mentor sixty minutes. It also meant the assessment simply did not happen unless a mentor was free to be in the room that day.
+I own the API and the database schema behind four apps. The one I have spent most time on is the **AI Teacher Coach**.
 
-Now the teacher creates the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the assessment is built from it. It comes back in five to ten minutes, and no mentor has to be there for any of it. The scoring runs on a background queue, so nothing is held up while the teacher waits.
+Coaching a teacher one to one is the thing that actually improves their teaching. It is also the thing a school can least afford to do, because it needs a trained mentor sitting in the room for the whole class. A sixty-minute class costs a mentor sixty minutes, and the coaching only happens on the days somebody is free to attend.
 
-We built the web app first, then the Android one. Both are in use today. About 400 assessments run through this every week, for 200+ teachers.
+Now the teacher sets up the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the coaching is built from it: what went well, what to work on, and what to try instead next time. It comes back in five to ten minutes, with nobody in the room. The scoring runs on a background queue, so the teacher is not sitting there waiting on it.
+
+We built the web app first, then the Android one. Both are in use. About 400 assessments run through this every week, for 200+ teachers.
 
 The background jobs succeed 98% of the time over 5,000+ submissions. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice. Before that queue existed, schools on bad connections were losing teachers' work outright. Saving on the phone first and syncing later stopped it at 50+ schools.
 
