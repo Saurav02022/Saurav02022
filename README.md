@@ -1,89 +1,52 @@
-## Saurav Kumar
+# Saurav Kumar
 
-Software engineer, three years in production. I work out what a thing needs to do, design the database, write the API and the app, and put it live myself. On six of my own projects I was the only engineer on all of it. On one, nobody gave me a brief. I wrote the problem statement, decided who it was for, then built it.
+Software engineer, three years in production. Mumbai, India. Python and TypeScript, FastAPI and Next.js, PostgreSQL. Looking for a Software Engineer II role, happy to relocate. sk729584@gmail.com
 
-Today I work on school software, in 117 schools, government and private. Two products are most of my work. One coaches a teacher on the class they just taught. The other is where students build a portfolio of their year and get assessed on it.
+I work out what a thing needs to do, design the database, write the API and the app, and put it live myself. On six of my own projects I was the only engineer on all of it. On one, nobody gave me a brief — I wrote the problem statement, decided who it was for, then built it.
 
-### What I'm working on now
+## Now — Shikha Learning Labs, Mumbai (Nov 2024 – present)
 
-**Shikha Learning Labs** — Software Engineer, Mumbai. EdTech, used in government and private schools.
+Shikha Labs builds [Sakhee](https://shikha.ai), an AI tool for schoolteachers. I am one of the engineers on it. I own the API behind four apps, web and Android, and I designed the database under all four — a change to one table is a change all four have to live with, so that schema gets argued about before it gets written.
 
-Shikha Labs builds [Sakhee](https://shikha.ai), an AI tool for schoolteachers — planning a lesson, building an assessment, seeing how a class is doing. I am one of the engineers on it. I own the API behind four apps, web and Android, and I designed the database under all four. A change to one table is a change all four apps have to live with, so that schema gets argued about before it gets written.
+**The Android app for the teacher coach is mine end to end**, including the release and the testing with teachers. Assessing how a teacher taught used to mean a mentor sitting through the whole class: a sixty-minute class cost a mentor sixty minutes, and it only happened when a mentor was free. Now the teacher records the class themselves and the feedback comes back in five to ten minutes, with nobody in the room. Around 200 teachers use it, most recording at least two classes a week.
 
-The product I have spent most time on is the **AI Teacher Coach**.
+Those recordings are the product, so losing one is the worst thing that can happen. On Android, unsaved audio was being deleted silently — nobody reported it, because nobody knew. The recordings were not failing to upload; they were gone before the upload was attempted. I traced it and made every file prove it exists before anything writes over it.
 
-Coaching a teacher one to one is the thing that actually improves their teaching. It is also the thing a school can least afford to do, because it needs a trained mentor sitting in the room for the whole class. A sixty-minute class costs a mentor sixty minutes, and the coaching only happens on the days somebody is free to attend.
+Two other parts of Sakhee are mine, both written alone. The school calendar, which I later pulled into its own service so every app asks it instead of keeping its own copy of the dates. And the Google Drive link: a teacher's files sync both ways with every version kept, and it waits for a pause in the typing before it saves. An hour of editing leaves one version, not forty. The build and deploy pipelines for our four services are mine too.
 
-Now the teacher sets up the class in the app themselves. They start a voice recording when the class begins and stop it at the end. We keep the audio, and the coaching is built from it: what went well, what to work on, and what to try instead next time. It comes back in five to ten minutes, with nobody in the room. The scoring runs on a background queue, so the teacher is not sitting there waiting on it.
+I also build whole products on my own here — a student portfolio portal, web and Android, and an institute website with an admin area where staff edit their own content. And with two colleagues, the front end of a platform a state authority uses to check school quality.
 
-The web app came first. **The Android app is mine end to end** — what it needed to do, both ends of it, the database, the Play Store release, and the testing with teachers afterwards. Around 200 teachers use it, and most record at least two classes a week, so roughly 400 classes come through every week. Every one of those is an hour of teaching a mentor would have had to attend in full.
+Two peer-reviewed papers have been published on this work — [CELDA 2025](https://doi.org/10.33965/celda2025_202509l042) and [Springer CCIS 2026](https://doi.org/10.1007/978-3-032-29791-4_25). Colleagues wrote them, including our founder and my product manager. My part is the engineering.
 
-Those recordings are the whole product, so losing one is the worst thing that can happen. Schools on bad connections were losing them, so the app now saves to the phone first and sends the file once the signal is back. That stopped the losses at 50+ schools. A second problem was quieter and worse: on Android, unsaved audio was being deleted without anyone noticing, so nobody reported it, because nobody knew. I traced it and made every file prove it exists before anything writes over it. That recovered 20+ class recordings.
+## Before — Nuveb, Bengaluru (May 2023 – Sep 2024)
 
-The other one is the **AI-Assessed Portfolio Portal**, and I built that on my own, start to finish, web and Android.
+Built the creator side of a video platform as it grew from nothing to 10,000+ creators. Pages were taking 8.5 seconds for 50,000+ monthly visitors because the browse pages rebuilt themselves on every request, for content that barely changed. Moving them to pre-built pages took it to 2.5 seconds. Image requests went 3.2s to 1.9s once I profiled them and moved the resizing to the server.
 
-Students keep a public website of their own best work and add to it through the year. The hard part is not the website. It is that a blank page asks a fourteen-year-old to explain what they learned, and they write one line. So the portal walks them through it instead, with prompts that make them look at their own work before they write about it. An AI assessor then reads the finished portfolio and reports on how the student's skills are coming along, and it has to quote the student's actual work as evidence rather than hand back a score on its own.
+## Things I built on my own
 
-Three kinds of people log in and none of them should see the same thing. A student sees their own work. A teacher sees the students assigned to them. A school admin sees their school. A teacher at one school never sees another school's students, and that is not a setting anyone can get wrong by accident.
+Each README says how it is built, what it always guarantees, and which alternatives I turned down.
 
-300+ students use it, and it has taken 5,000+ submissions so far. 98% of those go through first time. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice.
+1. **[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — works out what a health insurance claim should pay. The money maths is plain Python with nothing from the web framework in it, and a claim saves completely or not at all. More test code than application code. **Start here.** `FastAPI · PostgreSQL`
+2. **[rto-shield](https://github.com/Saurav02022/rto-shield)** — an AI voice call confirms a cash-on-delivery order before dispatch. Nobody gave me the brief. The phone service reports the same call up to three times, so one handler matches on the call ID and the parcel ships only on a real confirmation. `FastAPI · Next.js`
+3. **[ai-interview](https://github.com/Saurav02022/ai-interview)** — book a mock interview, take it on a video call that writes its own transcript, get written feedback after. A repeated message updates the same booking instead of paying the interviewer twice. `Next.js · FastAPI`
+4. **[resume-builder](https://github.com/Saurav02022/resume-builder)** — rewrites a résumé for one job, every change shown side by side before export. The model is locked to a fixed shape so it cannot quietly break the layout. `Next.js · FastAPI` · [try it](https://resume-builder-saurav02022.vercel.app)
+5. **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)** — drafts three hashtag sets and posts your pick as a comment. I dropped automatic post-reading when the reliable fix cost money. `Next.js` · [try it](https://ai-linkedin-hashtag-refresh-engine-app.vercel.app)
+6. **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)** — budgeting for beginners, where every number is worked out in plain code and the model only writes the wording. Three-hour hackathon. `Next.js · Supabase`
 
-### The rest of what I do here
-
-Two pieces of Sakhee are mine and I wrote both alone. The school calendar — terms, holidays, timetables — which I later pulled into its own service, so every app asks it instead of keeping its own copy of the dates. And the Google Drive link: a teacher's files sync both ways with every version kept, and while they are still typing it waits for a pause before saving. An hour of editing leaves one version, not forty. The build and deploy pipelines for our four services are mine as well.
-
-A state authority is having a platform built to check school quality. Three of us built it, and I built the front end: signing in, the different dashboard each kind of user sees, forms that save as you fill them so a bad connection does not cost an hour of work, a calendar of what is due, and the school report pages. A colleague wrote the part that does the scoring.
-
-I build whole products on my own here too. The institute's new website is mine end to end, still in development: 14 pages, and an admin area where staff edit their own content without going through a developer. A draft is kept separate from what the public sees, so a half-written page cannot leak onto the live site. It deploys with the new version taking no traffic until it has answered a health check, and the old one keeps serving if it does not. There is a second one, a content platform for a state education department, where I am the only engineer.
-
-### Research on what we build
-
-Two peer-reviewed research papers have been published about work I am part of. One is on the history chatbots. That is a third product here, separate from the two above, and I ship the new features on it after an earlier team built the first version. The other is about how the platform was designed with teachers, in their own classrooms.
-
-Neither paper is mine. Colleagues at Shikha wrote both, including our founder and my product manager. My part is the engineering they are written about.
-
-- [Conversations for Learning: Designing Personified Historical Chatbots to Enhance Critical Thinking in K-12 Students](https://doi.org/10.33965/celda2025_202509l042) — CELDA 2025
-- [AI-Human Synergy: Using Design Thinking to Build for and with Teachers](https://doi.org/10.1007/978-3-032-29791-4_25) — Springer, 2026
-
-### Before this
-
-**Nuveb** — Full-Stack Developer, Bengaluru. A video platform for creators, which grew from nothing to 10,000+ creators while I was there. I built the creator side: video, scheduling, payments.
-
-Pages were taking 8.5 seconds to load for 50,000+ monthly visitors. The browse pages were rebuilding themselves on every single request, for content that barely changed. I moved them to pre-built pages and kept the rebuild only where the page was personal to the user. That took it to 2.5 seconds. Separately, image requests were sitting at 3.2 seconds across 10,000+ items. Profiling pointed at the resizing step, so I moved that work to the server. 1.9 seconds after.
-
-### Things I built on my own
-
-Read these in order. Each README says how it is built, what it always guarantees, and which alternatives I turned down.
-
-1. **[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — works out what a health insurance claim should actually pay. What is covered, what the deductible takes, what is left. Money maths gets no partial credit, so the calculation is a pure engine with no framework near it, and a claim either saves completely or not at all. There is more test code than application code. **Start here. It is the deepest backend work.** `FastAPI · PostgreSQL`
-2. **[rto-shield](https://github.com/Saurav02022/rto-shield)** — when a customer refuses a cash-on-delivery parcel, the seller pays shipping both ways. This puts an AI phone call in between. Confirm first, dispatch after. Nobody gave me this brief. I wrote the problem statement, picked the users, chose the stack, then built it. The hard part is that the call result can arrive two or three times, so it is built to record it exactly once. `FastAPI · Next.js · Bolna`
-3. **[ai-interview](https://github.com/Saurav02022/ai-interview)** — book a mock interview with credits, take it on a video call that writes its own transcript, get written feedback once you hang up. The payout to the interviewer is protected in three separate places, so a repeated message can never pay twice. `Next.js · FastAPI · Stream`
-4. **[resume-builder](https://github.com/Saurav02022/resume-builder)** — rewrites your résumé for one specific job. You see every change side by side and approve it before anything exports. The AI is locked to a fixed shape, so it cannot quietly break your layout. `Next.js · FastAPI` · [try it](https://resume-builder-saurav02022.vercel.app)
-5. **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)** — a post stops travelling once its hashtags go stale. This drafts three fresh sets and posts your pick as a comment. I first tried to read the post automatically. It kept breaking, and the reliable fix cost money, so I dropped it and let people paste the text instead. The login was the real work: LinkedIn expires it every 60 days and it had to be renewed by hand in code. `Next.js` · [try it](https://ai-linkedin-hashtag-refresh-engine-app.vercel.app)
-6. **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)** — budgeting and saving for people starting from zero. Every number is worked out in plain code, never by the AI, so a model outage can change the wording but never the maths. Built in a three-hour hackathon. `Next.js · Supabase`
-
-### Open source
+## Open source
 
 I joined Social Winter of Code as a contributor and came back to the summer round as a mentor.
 
-**Mentor, Social Summer of Code 2026.** Two projects, since June. I decide what gets built, in what order, and what finished means. I do not write the code. Between them the two projects have drawn 41 different contributors.
+**Mentor, Social Summer of Code 2026** — two projects, 41 contributors between them. I decide what gets built and what finished means. On [EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI) I ask contributors to write down their approach before they start. On [VidyAI++](https://github.com/jai3546/AI_ROCKERS) I wrote 5 of the open tasks: a missing import crashing the app, stale pages served after a release, 44 type errors the build ignored, and a build that fails without one database setting.
 
-- **[EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI)** (23 contributors, 31 forks) — a study platform with around 100 open tasks. On the harder ones I ask the contributor to write down their approach before they start building.
-- **[VidyAI++](https://github.com/jai3546/AI_ROCKERS)** (23 contributors, 35 forks) — an AI tutoring app the group is cleaning up. I wrote 5 of its 68 open tasks: a missing import crashing the app, old pages still served after a release, 44 type errors the build was ignoring, and a build that fails when one database setting is absent.
+**Contributor, Social Winter of Code 2026** — merged the site-wide dark and light theme into [AlgoFi](https://github.com/denshaw-09/AlgoFi) and made it survive a reload. Added live typing indicators to [BrowsePing](https://github.com/browseping/browser-extension), still open for review.
 
-**Contributor, Social Winter of Code 2026.** Picked up open tasks in two projects and finished them.
-
-- **[AlgoFi](https://github.com/denshaw-09/AlgoFi)** (11 contributors, 29 forks) — a marketplace for digital collectibles. Two pull requests merged. Started on a beginner task, finished on a harder one: the site-wide dark and light theme, made to survive a reload. 11 files, +419/−226.
-- **[BrowsePing](https://github.com/browseping/browser-extension)** (5 contributors, 15 forks) — a browser extension for browsing together. Live typing indicators, 8 files, +365/−123 across 6 commits, still open for review. I also broke their dashboard plan into five smaller tasks other people could pick up.
-
-### Stack
+## Stack
 
 TypeScript · Python · SQL — Next.js · React · React Native — FastAPI · Node.js — PostgreSQL · Redis · Firestore · IndexedDB — Google Gemini — Docker · GCP Cloud Run · Vercel · GitHub Actions — Playwright · pytest
 
-### Elsewhere
+## Elsewhere
 
-B.Sc. Mathematics (Honours). Starting an MCA at IIIT Ranchi in 2026.
+B.Sc. Mathematics (Honours), Munger University, 2019–2022. MCA at IIIT Ranchi, 2026–2028, weekends alongside work.
 
 [Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · sk729584@gmail.com
-
-Looking for a Software Engineer II role, happy to relocate.
