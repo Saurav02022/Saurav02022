@@ -1,6 +1,6 @@
 ## Saurav Kumar
 
-Full-stack and LLM engineer, three years in production. I work end to end — API design, data modelling, the deploy — and I'm at my best on the parts that break under real conditions: idempotency, retries, offline sync, and keeping model output inside a schema.
+Full-stack and AI engineer, three years in production. I work end to end — API design, data modelling, the deploy — and I'm at my best on the parts that break under real conditions: idempotency, retries, offline sync, and keeping model output inside a schema.
 
 My day job is reliability at scale: I own the API layer and the PostgreSQL schema behind four apps running across 117 schools, most of them on connections that drop, where the real problems are idempotent writes and offline-first sync. Before that I took a creator platform from 0 to 10,000+ users and cut page loads from 8.5s to 2.5s.
 
