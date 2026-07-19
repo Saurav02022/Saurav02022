@@ -16,6 +16,10 @@ Now the teacher sets up the class in the app themselves. They start a voice reco
 
 We built the web app first, then the Android one. Both are in use. About 400 assessments run through this every week, for 200+ teachers.
 
+The other one is the **AI-Assessed Portfolio Portal**, and I built that one on my own, start to finish, web and Android.
+
+Students keep a public website of their own best work and add to it through the year. The hard part is not the website. It is that a blank page asks a fourteen-year-old to explain what they learned, and they write one line. So the portal walks them through it instead, with prompts that make them look at their own work before they write about it. An AI assessor then reads the finished portfolio and reports on how the student's skills are coming along, and it has to quote the student's actual work as evidence rather than hand back a score on its own.
+
 The background jobs succeed 98% of the time over 5,000+ submissions. The 2% that fail are the interesting part. They retry on their own, and they are written so that a job which runs twice saves the same result once, not twice. Before that queue existed, schools on bad connections were losing teachers' work outright. Saving on the phone first and syncing later stopped it at 50+ schools.
 
 One bug is worth naming. On Android, unsaved audio was being deleted quietly. Nobody reported it as data loss because nobody knew it had happened. I traced it, and now every file is checked to exist before anything writes over it. That recovered 20+ class recordings.
