@@ -1,50 +1,76 @@
 # Saurav Kumar
 
-I build web and Android products end to end: the screens people use, the server behind them, the database underneath, and the pipeline that puts it all live. Three years in production, Mumbai.
+Full Stack Software Engineer in Mumbai, building production web products with TypeScript, React, Next.js, Python, FastAPI and PostgreSQL.
 
-At [Shikha Learning Labs](https://shikha.ai) in Mumbai I work on [Sakhee](https://shikha.ai), software for schoolteachers running in 117 schools. Before that, Nuveb in Bengaluru.
+I currently work at [Shikha Learning Labs](https://shikha.ai), an EdTech initiative of the Shantilal Shanghvi Foundation. I build products used by teachers, students, principals and school teams across 117 schools. I am the sole engineer for 4 of 10 web products and also contribute to shared parts of the platform.
 
-**Open to a Software Engineer II role, and happy to relocate.** sk729584@gmail.com
+Before Shikha, I worked at Nuveb, an open OTT network for creators, where I built OTT and creator portal features for 50,000+ monthly users and 10,000+ creators.
 
-## What I have shipped at work
+**Open to Software Engineer 2 / Full Stack Developer roles. Happy to relocate.**  
+Email: sk729584@gmail.com
 
-At Shikha, in order of how much of it is mine:
+## What I Work On
 
-- **The teacher coaching app on Android**, alone, from the first screen to the Play Store listing and the testing with teachers. Assessing a teacher used to need a mentor sitting through the whole class, so a sixty-minute class cost a mentor sixty minutes and only happened when someone was free. Now teachers record the class themselves and get feedback in five to ten minutes. Around 200 teachers use it, most recording two classes a week.
-- **The database under all four Sakhee apps.** A change to one table is a change all four have to live with, so that schema gets argued about before anyone writes it.
-- **The school calendar**, which I later pulled out into its own service so every app asks it instead of keeping its own copy of the dates.
-- **The Google Drive sync**, where a teacher's files move both ways with every version kept. It waits for a pause in the typing before saving, so an hour of editing leaves one version and not forty.
-- **The build and deploy pipelines** for all four services.
-- **A student portfolio portal**, web and Android, and **an institute website** with an admin area where staff edit their own content. Both alone.
-- **The front end of a school quality platform** a state authority uses, with two colleagues.
+- Full-stack product development with React, Next.js, FastAPI and PostgreSQL
+- AI-backed workflows for education products
+- Reliable offline-first flows for schools with weak internet
+- Role-based access, single login and shared product systems
+- System design, databases, DSA and production debugging
 
-At Nuveb, the creator side of a video platform, zero to 10,000 creators. The browse pages took 8.5 seconds for 50,000+ monthly visitors because they rebuilt themselves on every request for content that hardly ever changed. Pre-building them brought it to 2.5 seconds. Images went from 3.2s to 1.9s once I profiled them and moved the resizing to the server.
+## Work At Shikha Learning Labs
 
-## Things I built on my own
+Some of the products I have built or worked on are now connected to published research work from the Shikha team.
 
-Each repo's README says how it works, what it guarantees, and what I decided against.
+At Shikha, my work includes:
 
-- **[claims-processing-system](https://github.com/Saurav02022/claims-processing-system)** — decides what a health insurance claim pays out. More test code than application code. Start here.
-- **[rto-shield](https://github.com/Saurav02022/rto-shield)** — an AI voice call confirms a cash-on-delivery order before it ships. Nobody gave me the brief; I wrote it.
-- **[ai-interview](https://github.com/Saurav02022/ai-interview)** — mock interviews on a video call that transcribes itself, with feedback after.
-- **[resume-builder](https://github.com/Saurav02022/resume-builder)** — rewrites a résumé for one job, every change shown side by side. [try it](https://resume-builder-saurav02022.vercel.app)
-- **[linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app)** — drafts three hashtag sets and comments your pick. [try it](https://ai-linkedin-hashtag-refresh-engine-app.vercel.app)
-- **[financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant)** — budgeting for beginners. Built in a three-hour hackathon.
+- Building and running 4 of 10 web products used across 117 schools.
+- Building an AI feedback workflow for classroom audio that reduces teacher evaluation time from around 60 minutes to 5-10 minutes.
+- Supporting 400+ classroom recordings per week for 200+ teachers using Redis queues and FastAPI workers.
+- Building offline-safe recording flows with IndexedDB so 50+ rural schools do not lose classroom recordings when the internet is weak.
+- Building and running a student portfolio app used by 300+ students for 5,000+ monthly submissions.
+- Standardising shared UI components, single login and role-based access across multiple products.
 
-Six projects, and on every one of them I was the only engineer: design, frontend, backend, schema, deployment. Mostly Python and TypeScript, FastAPI and Next.js, PostgreSQL on top.
+## Research Connected To Products I Worked On
 
-## The bug I think about
+These papers were written by Shikha's product managers, founder, researchers and wider team members. I am not listing myself as an author. My connection is that the papers are related to products I built or worked on as part of the engineering team.
 
-On the Android coaching app, unsaved recordings were being deleted without a trace. Nobody had reported it, because nobody knew. The audio was not failing to upload; it was already gone by the time the upload started. Those recordings are the whole product. Now every file has to prove it exists before anything is allowed to write over it.
+- [AI-Human Synergy: Using Design Thinking to Build for and with Teachers](https://doi.org/10.1007/978-3-032-29791-4_25) — AIED 2026 / Springer. Related to our AI teacher workflow and multi-assistant platform for teachers.
+- [Conversations for Learning: Designing Personified Historical Chatbots to Enhance Critical Thinking in K-12 Students](https://doi.org/10.33965/celda2025_202509l042) — CELDA 2025. Related to AI chatbot work for K-12 learning and student questioning.
 
-## Open source
+## Nuveb
 
-Mentor at Social Summer of Code 2026 for [EduFlow AI](https://github.com/prabhakarshukla/EduFlow-AI) and [VidyAI++](https://github.com/jai3546/AI_ROCKERS), 41 contributors between them. I decide what gets built and what counts as done. I came to it the other way round, as a contributor in the winter round, where I merged the dark and light theme into [AlgoFi](https://github.com/denshaw-09/AlgoFi).
+At Nuveb, I worked across the viewer-facing OTT platform and the creator side of the product.
 
-## Elsewhere
+- Launched creator portal features used by 10,000+ creators.
+- Built multi-step video upload and publishing flows, scheduling, payments and REST API integrations.
+- Improved key OTT page load time from 8.5 seconds to 2.5 seconds for 50,000+ monthly users.
+- Reduced image API response time from 3.2 seconds to 1.9 seconds across 10,000+ catalogue items using Sharp.
 
-Two papers have been published about products I helped build, one at [AIED 2026](https://doi.org/10.1007/978-3-032-29791-4_25) on designing with teachers, and one at [CELDA 2025](https://doi.org/10.33965/celda2025_202509l042) on chatbots that take on the persona of a historical figure. Colleagues wrote both, not me. I was on the engineering team for the software they describe.
+## Projects
 
-B.Sc. Mathematics (Honours), Munger University. Currently doing an MCA at IIIT Ranchi on weekends.
+Each project README explains what the app does, how it works and the main trade-offs.
 
-[Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · sk729584@gmail.com
+- [claims-processing-system](https://github.com/Saurav02022/claims-processing-system) — health insurance claim payout engine using Python, FastAPI, PostgreSQL and pytest.
+- [rto-shield](https://github.com/Saurav02022/rto-shield) — AI voice call workflow for confirming risky cash-on-delivery orders before shipping.
+- [ai-interview](https://github.com/Saurav02022/ai-interview) — mock interview platform with video calls, transcripts and AI feedback.
+- [resume-builder](https://github.com/Saurav02022/resume-builder) — resume tailoring tool for one job, with changes shown side by side. [Try it](https://resume-builder-saurav02022.vercel.app)
+- [linkedin-hashtag-refresh-engine-app](https://github.com/Saurav02022/linkedin-hashtag-refresh-engine-app) — drafts hashtag sets for LinkedIn posts. [Try it](https://ai-linkedin-hashtag-refresh-engine-app.vercel.app)
+- [financial-literacy-assistant](https://github.com/Saurav02022/financial-literacy-assistant) — budgeting assistant built in a three-hour hackathon.
+
+## Open Source
+
+- Mentor at Social Summer of Code 2026, helping contributors scope issues, write clean pull requests and understand review feedback.
+- Contributor at Social Winter of Code 2026, where I worked on light/dark theme implementation and front-end improvements.
+- Solved 200+ DSA problems across LeetCode and other platforms, with a LeetCode contest rating of 1,616.
+
+## Tech Stack
+
+TypeScript, JavaScript, Python, React, Next.js, Tailwind CSS, shadcn/ui, Node.js, FastAPI, REST APIs, PostgreSQL, Supabase, Firestore, Redis, IndexedDB, Docker, GitHub Actions, Google Cloud Run, Vercel, Cypress, pytest and Sentry.
+
+## Education
+
+- MCA, Indian Institute of Information Technology Ranchi, 2026-2028 expected
+- Full Stack Web Development, Masai
+- B.Sc. Mathematics (Honours), Munger University
+
+[Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
