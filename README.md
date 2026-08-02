@@ -7,7 +7,7 @@ I like building useful products that real people use every day. Right now, most 
 I am open to Software Engineer 2 / Full Stack Developer roles where I can build reliable products, work on AI features, and grow deeper in system design.
 
 Email: [sk729584@gmail.com](mailto:sk729584@gmail.com)  
-Portfolio: [saurav02022-portfolio.vercel.app](https://saurav02022-portfolio.vercel.app)  
+Portfolio: [saurav-portfolio-lovat.vercel.app](https://saurav-portfolio-lovat.vercel.app)  
 LinkedIn: [linkedin.com/in/saurav02022](https://linkedin.com/in/saurav02022)
 
 ## What I Do
@@ -93,4 +93,4 @@ TypeScript, JavaScript, Python, React, Next.js, Tailwind CSS, shadcn/ui, Node.js
 - Full Stack Web Development, Masai
 - B.Sc. Mathematics (Honours), Munger University
 
-[Portfolio](https://saurav02022-portfolio.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
+[Portfolio](https://saurav-portfolio-lovat.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
