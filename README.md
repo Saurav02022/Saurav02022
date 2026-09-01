@@ -1,22 +1,22 @@
 # Saurav Kumar
 
-I am a Full Stack Software Engineer in Mumbai. I build web products end to end with TypeScript, React, Next.js, Python, FastAPI and PostgreSQL.
+I am an applied AI engineer in Mumbai. I build and run LLM systems in production — the kind that make a real decision, get measured against a human, and have to keep working when the network does not.
 
-I like building useful products that real people use every day. Right now, most of my work is in EdTech, AI-backed workflows, offline-first product flows, and systems that need to work well even when internet is weak.
+I came to this from full-stack work on the same product, so I still build the whole thing: Python, FastAPI, TypeScript, React, Next.js and PostgreSQL.
 
-I am open to Software Engineer 2 / Full Stack Developer roles where I can build reliable products, work on AI features, and grow deeper in system design.
+I am open to AI Engineer, Applied AI Engineer, GenAI Engineer, Forward Deployed Engineer and Software Engineer II roles where the job is shipping AI features that real people depend on.
 
 Email: [sk729584@gmail.com](mailto:sk729584@gmail.com)  
-Portfolio: [saurav-portfolio-lovat.vercel.app](https://saurav-portfolio-lovat.vercel.app)  
+Portfolio: [saurav02022.github.io](https://saurav02022.github.io)  
 LinkedIn: [linkedin.com/in/saurav02022](https://linkedin.com/in/saurav02022)
 
 ## What I Do
 
-- Build full-stack products with React, Next.js, FastAPI and PostgreSQL.
-- Work on AI-backed workflows for teachers, students and school teams.
-- Build offline-safe flows for schools where internet can be weak.
-- Work on authentication, role-based access, APIs, databases and deployment.
-- Study and write about system design, databases and DSA.
+- Build production LLM systems: rubric-scored decisioning, prompt and model iteration, structured outputs.
+- Measure what the model decides against human judgement, and gate every change on that number.
+- Keep LLM cost and latency under control with response caching and queued inference.
+- Build the whole stack around it — FastAPI, PostgreSQL, Redis, Next.js — plus CI/CD and deployment.
+- Build offline-safe flows for schools where the internet is weak.
 
 ## Current Work: Shikha Learning Labs
 
@@ -26,11 +26,12 @@ Our products are used by teachers, students, principals and school teams across 
 
 My work includes:
 
-- Building an AI feedback workflow for classroom audio.
-- Reducing teacher evaluation time from around 60 minutes to 5-10 minutes.
-- Supporting 400+ classroom recordings per week for 200+ teachers.
-- Building offline-safe recording flows with IndexedDB for 50+ rural schools.
-- Building and running a student portfolio app used by 300+ students for 5,000+ monthly submissions.
+- Building the AI portfolio analyser: a FastAPI service on Redis queues that scores every student submission against a fixed rubric for its subject and class and returns approve, reject or a comment. Around 5,000 submissions a month from 300+ students, with first-pass checking moved off teachers.
+- Measuring that analyser against teacher judgement instead of assuming it is right. Agreement is 7 in 10 today, and every prompt, model and model-config change is tested against that number before release.
+- Building and running the AI feedback pipeline for classroom audio on Redis queues into FastAPI workers — 400+ classes a week for 200+ teachers, with mentor review down from about an hour to 5-10 minutes.
+- Cutting repeat LLM spend across roughly 3,000 cached results by keying the cache on a SHA-256 hash of the student's scores, the prompt version and the model, so a result is recomputed only when one of those three changes.
+- Replacing per-developer Vercel seats with token-based deploys from GitHub Actions, in one reusable workflow across 12 projects, so six engineers ship from a single paid seat.
+- Building offline-safe recording flows with IndexedDB for around 50 rural schools.
 - Working on shared UI components, single login and role-based access across multiple products.
 
 ## Research Connected To My Product Work
@@ -58,11 +59,11 @@ I worked across the viewer-facing OTT platform and creator portal.
 
 ## Projects
 
-- [claims-processing-system](https://github.com/Saurav02022/claims-processing-system)  
-  A health insurance claim payout engine using Python, FastAPI, PostgreSQL and pytest.
-
 - [rto-shield](https://github.com/Saurav02022/rto-shield)  
-  An AI voice call workflow for confirming risky cash-on-delivery orders before shipping.
+  An ops console where an AI voice call confirms a cash-on-delivery order before it ships. The provider reports the same call up to three times, so one idempotent mutator keyed on the call ID decides the order state and a repeat can never ship a second parcel.
+
+- [claims-processing-system](https://github.com/Saurav02022/claims-processing-system)  
+  A health-insurance payout engine. The rules are about 170 lines of plain Python with nothing from the web framework in them, covered by 74 tests, and the whole claim write sits inside one PostgreSQL function.
 
 - [ai-interview](https://github.com/Saurav02022/ai-interview)  
   A mock interview platform with video calls, transcripts and AI feedback.
@@ -78,19 +79,26 @@ I worked across the viewer-facing OTT platform and creator portal.
 
 ## Open Source And Learning
 
-- Mentor at Social Summer of Code 2026.
-- Contributor at Social Winter of Code 2026.
-- Solved 200+ DSA problems across LeetCode and other platforms.
-- LeetCode contest rating: 1,616.
+- Mentored 41 contributors across the open-source projects EduFlow AI and VidyAI++ at Social Summer of Code 2026, and filed 5 tracked issues on VidyAI++ including 44 TypeScript errors the build was hiding.
+- Contributor at Social Winter of Code 2026 — light and dark theming across 11 files in AlgoFi.
+- Solved 200+ DSA problems on LeetCode and takeUforward. LeetCode contest rating: 1,616.
 
 ## Tech Stack
 
-TypeScript, JavaScript, Python, React, Next.js, Tailwind CSS, shadcn/ui, Node.js, FastAPI, REST APIs, PostgreSQL, Supabase, Firestore, Redis, IndexedDB, Docker, GitHub Actions, Google Cloud Run, Vercel, Cypress, pytest and Sentry.
+**AI and LLM systems:** LLM evaluation, prompt engineering, structured outputs, response caching, queued inference, AI voice agents, LLM APIs (OpenAI, Gemini, DeepSeek).
+
+**Languages:** Python, TypeScript, JavaScript, SQL.
+
+**Backend:** FastAPI, Node.js, REST APIs, Redis, message queues, pytest.
+
+**Frontend:** React, Next.js, Tailwind CSS.
+
+**Databases and infrastructure:** PostgreSQL, Supabase, Firestore, Docker, GitHub Actions, CI/CD, GCP, Google Cloud Run, Vercel, Sentry.
 
 ## Education
 
 - MCA, Indian Institute of Information Technology Ranchi, 2026-2028 expected
-- Full Stack Web Development, Masai
-- B.Sc. Mathematics (Honours), Munger University
+- Full-Stack Web Development, Masai School, 2022-2023
+- B.Sc. Mathematics (Honours), Munger University, 2019-2022
 
-[Portfolio](https://saurav-portfolio-lovat.vercel.app) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
+[Portfolio](https://saurav02022.github.io) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
