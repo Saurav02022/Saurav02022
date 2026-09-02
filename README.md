@@ -30,7 +30,7 @@ My work includes:
 - Measuring that analyser against teacher judgement instead of assuming it is right. Agreement is 7 in 10 today, and every prompt, model and model-config change is tested against that number before release.
 - Building and running the AI feedback pipeline for classroom audio on Redis queues into FastAPI workers — 400+ classes a week for 200+ teachers, with mentor review down from about an hour to 5-10 minutes.
 - Cutting repeat LLM spend across roughly 3,000 cached results by keying the cache on a SHA-256 hash of the student's scores, the prompt version and the model, so a result is recomputed only when one of those three changes.
-- Replacing per-developer Vercel seats with token-based deploys from GitHub Actions, in one reusable workflow across 12 projects, so six engineers ship from a single paid seat.
+- Replacing per-developer Vercel seats with token-based deploys from GitHub Actions, in one reusable workflow across 12 projects, so six engineers ship from a single paid seat and the team saves about $1,200 a year.
 - Building offline-safe recording flows with IndexedDB for around 50 rural schools.
 - Working on shared UI components, single login and role-based access across multiple products.
 
@@ -93,12 +93,12 @@ I worked across the viewer-facing OTT platform and creator portal.
 
 **Frontend:** React, Next.js, Tailwind CSS.
 
-**Databases and infrastructure:** PostgreSQL, Supabase, Firestore, Docker, GitHub Actions, CI/CD, GCP, Google Cloud Run, Vercel, Sentry.
+**Databases and infrastructure:** PostgreSQL, Supabase, Firestore, Docker, GitHub Actions, CI/CD, GCP, Google Cloud Run, Vercel, Sentry, monitoring and observability.
 
 ## Education
 
-- MCA, Indian Institute of Information Technology Ranchi, 2026-2028 expected
-- Full-Stack Web Development, Masai School, 2022-2023
+- MCA, Artificial Intelligence and Machine Learning, Indian Institute of Information Technology Ranchi, 2026-2028 expected
+- Full-Stack Web Development, Masai School, 2022-2023 — GPA 9/10
 - B.Sc. Mathematics (Honours), Munger University, 2019-2022
 
 [Portfolio](https://saurav02022.github.io) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
