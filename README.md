@@ -1,10 +1,10 @@
 # Saurav Kumar
 
-I am an applied AI engineer in Mumbai. I build and run LLM systems in production — the kind that make a real decision, get measured against a human, and have to keep working when the network does not.
+I am a software engineer in Mumbai. I build full stack web products and I run the AI parts of them in production.
 
-I came to this from full-stack work on the same product, so I still build the whole thing: Python, FastAPI, TypeScript, React, Next.js and PostgreSQL.
+I came to the AI work from full stack work on the same products, so I still build the whole thing: Python, FastAPI, TypeScript, React, Next.js and PostgreSQL.
 
-I am open to AI Engineer, Applied AI Engineer, GenAI Engineer, Forward Deployed Engineer and Software Engineer II roles where the job is shipping AI features that real people depend on.
+I am open to AI Engineer, Applied AI Engineer, GenAI Engineer, Forward Deployed Engineer and Software Engineer II roles.
 
 Email: [sk729584@gmail.com](mailto:sk729584@gmail.com)  
 Portfolio: [saurav02022.github.io](https://saurav02022.github.io)  
@@ -12,27 +12,27 @@ LinkedIn: [linkedin.com/in/saurav02022](https://linkedin.com/in/saurav02022)
 
 ## What I Do
 
-- Build production LLM systems: rubric-scored decisioning, prompt and model iteration, structured outputs.
+- Build LLM systems that make a real decision, so a person checks the output instead of producing all of it.
 - Measure what the model decides against human judgement, and gate every change on that number.
-- Keep LLM cost and latency under control with response caching and queued inference.
-- Build the whole stack around it — FastAPI, PostgreSQL, Redis, Next.js — plus CI/CD and deployment.
-- Build offline-safe flows for schools where the internet is weak.
+- Keep LLM cost and latency down with response caching and queued inference.
+- Build the whole stack around it on FastAPI, PostgreSQL, Redis and Next.js, including CI/CD and deployment.
+- Build offline-safe flows for schools where the internet is weak, so nothing is lost when the connection drops.
 
 ## Current Work: Shikha Learning Labs
 
-I work at [Shikha Learning Labs](https://shikha.ai), an EdTech initiative of the Shantilal Shanghvi Foundation.
+[Shikha Learning Labs](https://shikha.ai) is an EdTech initiative of the Shantilal Shanghvi Foundation. We build digital products for schools, teachers, students, principals and school admins.
 
-Our products are used by teachers, students, principals and school teams across 117 schools. I am the sole engineer for 4 of 10 web products and also contribute to shared platform work.
+I work as a Software Engineer. Our products are used across 117 schools. I am the sole engineer for 4 of 10 web products and I also work on shared parts of the platform.
 
 My work includes:
 
-- Building the AI portfolio analyser: a FastAPI service on Redis queues that scores every student submission against a fixed rubric for its subject and class and returns approve, reject or a comment. Around 5,000 submissions a month from 300+ students, with first-pass checking moved off teachers.
-- Measuring that analyser against teacher judgement instead of assuming it is right. Agreement is 7 in 10 today, and every prompt, model and model-config change is tested against that number before release.
-- Building and running the AI feedback pipeline for classroom audio on Redis queues into FastAPI workers — 400+ classes a week for 200+ teachers, with mentor review down from about an hour to 5-10 minutes.
-- Cutting repeat LLM spend across roughly 3,000 cached results by keying the cache on a SHA-256 hash of the student's scores, the prompt version and the model, so a result is recomputed only when one of those three changes.
-- Replacing per-developer Vercel seats with token-based deploys from GitHub Actions, in one reusable workflow across 12 projects, so six engineers ship from a single paid seat and the team saves about $1,200 a year.
-- Building offline-safe recording flows with IndexedDB for around 50 rural schools.
-- Working on shared UI components, single login and role-based access across multiple products.
+- Built a rubric-scored analyser that takes the first pass on student submissions, around 5,000 a month from 300+ students. It returns approve, reject or a comment, so teachers cross-check instead of reading every one.
+- Measure that analyser against teacher judgement instead of assuming it is right. Agreement is 7 in 10 today, and every prompt, model and model-config change is tested against that number before release.
+- Built the AI feedback workflow for classroom audio on FastAPI workers and Redis queues. It runs 400+ classes a week for 200+ teachers and brings a mentor's review of one class from around 60 minutes to 5-10 minutes.
+- Keep LLM cost flat with a response cache keyed on a SHA-256 hash of the scores, the prompt version and the model, so a result is recomputed only when one of those changes.
+- Moved the team to token-based deploys from GitHub Actions across 12 projects, so six engineers ship from one paid Vercel seat and we save about $1,200 a year.
+- Built offline-safe recording with IndexedDB for around 50 rural schools, so no class audio is lost when the connection drops.
+- Built shared UI components, single login and role-based access used across products, so everyone gets the right access.
 
 ## Research Connected To My Product Work
 
@@ -48,9 +48,11 @@ These papers were written by Shikha's founder, product managers, researchers and
 
 ## Previous Work: Nuveb
 
-Before Shikha, I worked at Nuveb, an open OTT network for creators.
+Nuveb is an open OTT network for creators. It helps creators publish video content and earn from it without depending only on large platforms.
 
-I worked across the viewer-facing OTT platform and creator portal.
+I worked as a Full Stack Developer across the viewer-facing OTT platform and the creator side of the product.
+
+My work included:
 
 - Built creator portal features used by 10,000+ creators.
 - Built multi-step video upload, publishing, scheduling and payment flows.
@@ -80,7 +82,7 @@ I worked across the viewer-facing OTT platform and creator portal.
 ## Open Source And Learning
 
 - Mentored 41 contributors across the open-source projects EduFlow AI and VidyAI++ at Social Summer of Code 2026, and filed 5 tracked issues on VidyAI++ including 44 TypeScript errors the build was hiding.
-- Contributor at Social Winter of Code 2026 — light and dark theming across 11 files in AlgoFi.
+- Contributed at Social Winter of Code 2026, with light and dark theming across 11 files in AlgoFi.
 - Solved 200+ DSA problems on LeetCode and takeUforward. LeetCode contest rating: 1,616.
 
 ## Tech Stack
@@ -98,7 +100,7 @@ I worked across the viewer-facing OTT platform and creator portal.
 ## Education
 
 - MCA, Artificial Intelligence and Machine Learning, Indian Institute of Information Technology Ranchi, 2026-2028 expected
-- Full-Stack Web Development, Masai School, 2022-2023 — GPA 9/10
+- Full-Stack Web Development, Masai School, 2022-2023, GPA 9/10
 - B.Sc. Mathematics (Honours), Munger University, 2019-2022
 
 [Portfolio](https://saurav02022.github.io) · [LinkedIn](https://linkedin.com/in/saurav02022) · [LeetCode](https://leetcode.com/u/Saurav02022) · [Email](mailto:sk729584@gmail.com)
