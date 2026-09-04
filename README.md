@@ -1,6 +1,6 @@
 # Saurav Kumar
 
-I am a software engineer in Mumbai. I build full stack web products and I run the AI parts of them in production.
+I am an applied AI engineer in Mumbai. I run LLM systems in production and I build the whole product around them.
 
 I came to the AI work from full stack work on the same products, so I still build the whole thing: Python, FastAPI, TypeScript, React, Next.js and PostgreSQL.
 
@@ -66,6 +66,9 @@ My work included:
 
 - [claims-processing-system](https://github.com/Saurav02022/claims-processing-system)  
   A health-insurance payout engine. The rules are about 170 lines of plain Python with nothing from the web framework in them, covered by 74 tests, and the whole claim write sits inside one PostgreSQL function.
+
+- [chat-ai-app](https://github.com/Saurav02022/chat-ai-app)
+  A streaming chat app built on the Vercel AI SDK with OpenAI models. I have kept working on it since November 2024 — 208 commits across 201 separate days.
 
 - [ai-interview](https://github.com/Saurav02022/ai-interview)  
   A mock interview platform with video calls, transcripts and AI feedback.
