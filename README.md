@@ -1,6 +1,6 @@
 # Saurav Kumar
 
-I am an applied AI engineer in Mumbai with 3+ years on production LLM systems. I run those systems in production and I build the whole product around them.
+I am an AI engineer in Mumbai with 3+ years on production LLM systems. I run those systems in production and I build the whole product around them.
 
 I came to the AI work from full stack work on the same products, so I still build the whole thing: Python, FastAPI, TypeScript, React, Next.js and PostgreSQL.
 
